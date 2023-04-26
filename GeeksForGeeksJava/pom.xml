@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>groupId</groupId>
+    <artifactId>GeeksForGeeksJava</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>IntroToJava</module>
+        <module>JVM</module>
+        <module>DataTypes</module>
+        <module>Operators</module>
+        <module>ReadingInput</module>
+        <module>FlowControl</module>
+        <module>Strings</module>
+        <module>ArrayExamples</module>
+        <module>Methods</module>
+        <module>MethodOverriding</module>
+        <module>Constructors</module>
+        <module>OOP</module>
+        <module>Comparators</module>
+        <module>ListInterface</module>
+        <module>CollectionsExamples</module>
+    </modules>
+
+
+</project>

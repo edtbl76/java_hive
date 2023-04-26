@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<local-project language="java" version="6.0.18139" xml-version="3" flavor="j2se">
+  <property name="parse-archive-in-archive" value="false" />
+  <property name="include-injected-dependency" value="false" />
+  <property name="relative-to" value="const(THIS_FILE)" />
+  <property name="action-set-mod" value="1" />
+  <property name="force-classpath" value="false" />
+  <property name="detail-mode" value="true" />
+  <property name="hide-deprecated" value="false" />
+  <property name="resolve-name-clashes" value="true" />
+  <property name="project-excluded" />
+  <property name="show-needs-to-compile" value="false" />
+  <property name="project-type" value="classpath" />
+  <property name="hide-externals" value="true" />
+  <classpath>
+    <classpathentry kind="lib" path="Strings/target/classes" module="Strings" displaymodule="Strings" />
+    <classpathentry kind="lib" path="FlowControl/target/classes" module="FlowControl" displaymodule="FlowControl" />
+    <classpathentry kind="lib" path="Methods/target/classes" module="Methods" displaymodule="Methods" />
+    <classpathentry kind="lib" path="Comparators/target/classes" module="Comparators" displaymodule="Comparators" />
+    <classpathentry kind="lib" path="ListInterface/target/classes" module="ListInterface" displaymodule="ListInterface" />
+    <classpathentry kind="lib" path="ArrayExamples/target/classes" module="ArrayExamples" displaymodule="ArrayExamples" />
+    <classpathentry kind="lib" path="Constructors/target/classes" module="Constructors" displaymodule="Constructors" />
+    <classpathentry kind="lib" path="OOP/target/classes" module="OOP" displaymodule="OOP" />
+    <classpathentry kind="lib" path="MethodOverriding/target/classes" module="MethodOverriding" displaymodule="MethodOverriding" />
+    <classpathentry kind="lib" path="DataTypes/target/classes" module="DataTypes" displaymodule="DataTypes" />
+    <classpathentry kind="lib" path="ReadingInput/target/classes" module="ReadingInput" displaymodule="ReadingInput" />
+    <classpathentry kind="lib" path="CollectionsExamples/target/classes" module="CollectionsExamples" displaymodule="CollectionsExamples" />
+    <classpathentry kind="lib" path="Operators/target/classes" module="Operators" displaymodule="Operators" />
+    <classpathentry kind="lib" path="JVM/target/classes" module="JVM" displaymodule="JVM" />
+  </classpath>
+  <pom-root-files />
+  <modules>
+    <module name="Strings" kind="ide-project" />
+    <module name="ReadingInput" kind="ide-project" />
+    <module name="Operators" kind="ide-project" />
+    <module name="OOP" kind="ide-project" />
+    <module name="Methods" kind="ide-project" />
+    <module name="MethodOverriding" kind="ide-project" />
+    <module name="ListInterface" kind="ide-project" />
+    <module name="JVM" kind="ide-project" />
+    <module name="IntroToJava" kind="ide-project" />
+    <module name="GeeksForGeeksJava" kind="ide-project" />
+    <module name="FlowControl" kind="ide-project" />
+    <module name="DataTypes" kind="ide-project" />
+    <module name="Constructors" kind="ide-project" />
+    <module name="Comparators" kind="ide-project" />
+    <module name="CollectionsExamples" kind="ide-project" />
+    <module name="ArrayExamples" kind="ide-project" />
+  </modules>
+  <modules-in-scope>
+    <module name="CollectionsExamples" />
+    <module name="ListInterface" />
+    <module name="Comparators" />
+    <module name="OOP" />
+    <module name="Constructors" />
+    <module name="MethodOverriding" />
+    <module name="Methods" />
+    <module name="ArrayExamples" />
+    <module name="Strings" />
+    <module name="FlowControl" />
+    <module name="ReadingInput" />
+    <module name="Operators" />
+    <module name="DataTypes" />
+    <module name="JVM" />
+    <module name="IntroToJava" />
+    <module name="GeeksForGeeksJava" />
+  </modules-in-scope>
+  <excludes>
+    <exclude expression="*.*&amp;amp;*" active="true" />
+  </excludes>
+  <restructuring>
+    <set version="3" name="Action list 1" hiview="Codemap" active="true" todo="false" list="0" />
+  </restructuring>
+  <grid-set sep="." version="6.0.18139" />
+</local-project>
