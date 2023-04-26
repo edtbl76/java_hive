@@ -1,0 +1,27 @@
+version: '3.5'
+
+services:
+  quarkus_test:
+    image: library/postgres:12.2
+    ports:
+      - 5432:5432
+    ulimits:
+      memlock: -1
+    mem_swappiness: 0
+    environment:
+      POSTGRES_USER: quarkus_test
+      POSTGRES_PASSWORD: quarkus_test
+      POSTGRES_DB: quarkus_test
+
+  mycompany:
+    image: library/postgres:12.2
+    ports:
+      - 5433:5432
+    ulimits:
+      memlock: -1
+    mem_swappiness: 0
+    environment:
+      POSTGRES_USER: mycompany
+      POSTGRES_PASSWORD: mycompany
+      POSTGRES_DB: mycompany
+

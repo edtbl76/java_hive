@@ -1,0 +1,10 @@
+version: '3.5'
+
+services:
+  local-sns:
+    image: "localstack/localstack"
+    ports:
+      - 8009:4566
+    environment:
+      SERVICES: sns
+      START_WEB: 0

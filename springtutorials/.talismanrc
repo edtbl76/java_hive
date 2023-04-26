@@ -1,0 +1,32 @@
+fileignoreconfig:
+- filename: pnpm-lock.yaml
+  checksum: 2438c848f728063b59e77407b63345b12df2538098fc3ec3b276a233b0f78ee6
+- filename: managing-transactions/src/main/resources/schema.sql
+  checksum: a582ccd09a8a2ad66b98731bb857b934cfa62ee8ac44ba17ee9c2085dfba1e0a
+- filename: securing-webapp/src/main/resources/templates/login.html
+  checksum: 274d881e82271674342dacca6c754aa9fd272d346167a0da645c7688fe1a2b05
+- filename: batch-processing/src/main/resources/schema-all.sql
+  checksum: 2f54dc365fcac175fd5592d5036a2fbb5e1b28bb06f62cbc2a45bfbbe6af98f4
+- filename: centralized-configuration/config
+  checksum: 1cdd62971b79b3d33ed59f20cfbcbfe1a3d1efb803fec28c194c6d68700c928d
+- filename: authenticating-ldap/src/main/resources/test-server.ldif
+  checksum: 8178954d879f77a7f9d2378ff0616813dd9503adc7cd206684cfcbd54a4b2809
+- filename: consuming-rest-jquery/package-lock.json
+  checksum: 63e93d59f4140468ddf649d713d14d09d019e55071812e6b67a4daf0d7a9d8d7
+- filename: consuming-rest-angularjs/package-lock.json
+  checksum: 6fd1a7b42a3a92da1d2970886aa435cefc10fc38b76775f8896f25ccb48d17e3
+- filename: accessing-data-mysql/docker-compose.yml
+  checksum: 9a1b850a49857cc07a5191c1649469e952f300de80e9986232408f4710ea969e
+- filename: accessing-data-mysql/src/main/resources/application.properties
+  checksum: 591bc381368f7a43323f30ef9469587b6f7d0fd6c5d6578d98d58470e33c194b
+- filename: accessing-vault/src/test/java/com/example/accessingvault/AccessingVaultApplicationTests.java
+  checksum: 9b0cafd1ef490b813fba296aa1d9a4f1638c321b888bf6691124608448136e59
+- filename: vault-config/src/main/java/com/example/vaultconfig/Application.java
+  checksum: 81e09b944fe6d52919959d44419758b649a1f3a2531bab350143812fca6f4699
+- filename: vault-config/src/main/java/com/example/vaultconfig/VaultConfig.java
+  checksum: d08ed3b585a6ad04fe7cb014b02b2e69a8028ecbbcaed724985313a8b390817e
+- filename: package.json
+  checksum: 04a7566a578ba02c3e3adcd9246b206aa03850555fd14be8e97817a03d5f2c23
+  ignore_detectors: [filecontent, filename, filesize]
+- filename: accessing-data-r2dbc/src/main/resources/schema.sql
+  checksum: e4345d038e9f2924c50b72106d41a46198404d5c9280e9f5a64cbd13966dea6e

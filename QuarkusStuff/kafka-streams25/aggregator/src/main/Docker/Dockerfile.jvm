@@ -1,0 +1,5 @@
+FROM registry.access.redhat.com/ubi8/ubi-minimal:8.1
+
+ARG JAVA_PACKAGE=java-11-openjdk-headless
+ARG RUN_JAVA_VERSION
+

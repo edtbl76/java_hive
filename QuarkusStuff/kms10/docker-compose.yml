@@ -1,0 +1,10 @@
+version: '3.5'
+
+services:
+  local-kms:
+    image: "localstack/localstack"
+    ports:
+      - 8011:4566
+    environment:
+      START_WEB: 0
+      SERVICES: kms

@@ -1,0 +1,10 @@
+version: '3.5'
+
+services:
+  infinispan:
+    image: infinispan/server
+    ports:
+      - 11222:11222
+    environment:
+      USER: "Titus Bramble"
+      PASS: "Shambles"

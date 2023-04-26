@@ -1,0 +1,8 @@
+version: '3.7'
+
+services:
+  vault:
+    container_name: vault
+    image: vault
+    ports:
+      - '8200:8200'

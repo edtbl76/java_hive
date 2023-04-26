@@ -1,0 +1,8 @@
+rootProject.name = 'SpringTutorials'
+include 'service-discovery'
+include 'centralized-configuration'
+include 'routing-and-filtering'
+include 'rest-contract'
+include 'contract-rest'
+include 'spring-cloud-load-balancer'
+

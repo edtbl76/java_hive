@@ -1,0 +1,10 @@
+version: '3.5'
+
+services:
+  local-3:
+    image: "localstack/localstack"
+    ports:
+      - 8008:4566
+    environment:
+      START_WEB: 0
+      SERVICES: s3

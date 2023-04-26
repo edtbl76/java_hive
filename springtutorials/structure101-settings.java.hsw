@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<local-project language="java" version="6.0.18139" xml-version="3" flavor="j2se">
+  <property name="parse-archive-in-archive" value="false" />
+  <property name="include-injected-dependency" value="false" />
+  <property name="relative-to" value="const(THIS_FILE)" />
+  <property name="action-set-mod" value="1" />
+  <property name="force-classpath" value="false" />
+  <property name="detail-mode" value="true" />
+  <property name="hide-deprecated" value="false" />
+  <property name="resolve-name-clashes" value="true" />
+  <property name="project-excluded" />
+  <property name="show-needs-to-compile" value="false" />
+  <property name="project-type" value="classpath" />
+  <property name="hide-externals" value="true" />
+  <classpath>
+    <classpathentry kind="lib" path="cloud-circuit-breaker/reading/build/classes/java/main" module="reading___main" displaymodule="reading.main" />
+    <classpathentry kind="lib" path="accessing-neo4j-data-rest/build/classes/java/main" module="accessing-neo4j-data-rest___main" displaymodule="accessing-neo4j-data-rest.main" />
+    <classpathentry kind="lib" path="accessing-data-gemfire-geode-rest/build/classes/java/main" module="accessing-data-gemfire-geode-rest___main" displaymodule="accessing-data-gemfire-geode-rest.main" />
+    <classpathentry kind="lib" path="spring-boot-docker/build/classes/java/main" module="spring-boot-docker___main" displaymodule="spring-boot-docker.main" />
+    <classpathentry kind="lib" path="gs-gradle/build/classes/java/main" module="gs-gradle___main" displaymodule="gs-gradle.main" />
+    <classpathentry kind="lib" path="gateway/build/classes/java/main" module="gateway___main" displaymodule="gateway.main" />
+    <classpathentry kind="lib" path="rest-service-cors/build/classes/java/main" module="rest-service-cors___main" displaymodule="rest-service-cors.main" />
+    <classpathentry kind="lib" path="spring-cloud-load-balancer/User/build/classes/java/main" module="User___main" displaymodule="User.main" />
+    <classpathentry kind="lib" path="routing-and-filtering/EdgeService/build/classes/java/main" module="EdgeService___main" displaymodule="EdgeService.main" />
+    <classpathentry kind="lib" path="integration/build/classes/java/main" module="integration___main" displaymodule="integration.main" />
+    <classpathentry kind="lib" path="spring-boot-starter/build/classes/java/main" module="spring-boot-starter___main" displaymodule="spring-boot-starter.main" />
+    <classpathentry kind="lib" path="relational-data-access/build/classes/java/main" module="relational-data-access___main" displaymodule="relational-data-access.main" />
+    <classpathentry kind="lib" path="consuming-web-service/build/classes/java/main" module="consuming-web-service___main" displaymodule="consuming-web-service.main" />
+    <classpathentry kind="lib" path="contract-rest/contract-rest-client/build/classes/java/main" module="contract-rest-client___main" displaymodule="contract-rest-client.main" />
+    <classpathentry kind="lib" path="service-discovery/eureka-service/build/classes/java/main" module="eureka-service___main" displaymodule="eureka-service.main" />
+    <classpathentry kind="lib" path="multi-module/application/build/classes/java/main" module="multi-module___application___main" displaymodule="multi-module.application.main" />
+    <classpathentry kind="lib" path="async-method/build/classes/java/main" module="async-method___main" displaymodule="async-method.main" />
+    <classpathentry kind="lib" path="cloud-circuit-breaker/build/classes/java/main" module="cloud-circuit-breaker___main" displaymodule="cloud-circuit-breaker.main" />
+    <classpathentry kind="lib" path="consuming-rest/build/classes/java/main" module="consuming-rest___main" displaymodule="consuming-rest.main" />
+    <classpathentry kind="lib" path="service-discovery/eureka-client/build/classes/java/main" module="eureka-client___main" displaymodule="eureka-client.main" />
+    <classpathentry kind="lib" path="securing-webapp/build/classes/java/main" module="securing-webapp___main" displaymodule="securing-webapp.main" />
+    <classpathentry kind="lib" path="batch-processing/build/classes/java/main" module="batch-processing___main" displaymodule="batch-processing.main" />
+    <classpathentry kind="lib" path="messaging-jms/build/classes/java/main" module="messaging-jms___main" displaymodule="messaging-jms.main" />
+    <classpathentry kind="lib" path="spring-cloud-load-balancer/SayHello/build/classes/java/main" module="SayHello___main" displaymodule="SayHello.main" />
+    <classpathentry kind="lib" path="scheduling-tasks/build/classes/java/main" module="scheduling-tasks___main" displaymodule="scheduling-tasks.main" />
+    <classpathentry kind="lib" path="handling-form-submission/build/classes/java/main" module="handling-form-submission___main" displaymodule="handling-form-submission.main" />
+    <classpathentry kind="lib" path="rest-service/build/classes/java/main" module="rest-service___main" displaymodule="rest-service.main" />
+    <classpathentry kind="lib" path="accessing-vault/build/classes/java/main" module="accessing-vault___main" displaymodule="accessing-vault.main" />
+    <classpathentry kind="lib" path="accessing-mongo-data-rest/build/classes/java/main" module="accessing-mongo-data-rest___main" displaymodule="accessing-mongo-data-rest.main" />
+    <classpathentry kind="lib" path="caching/build/classes/java/main" module="caching___main" displaymodule="caching.main" />
+    <classpathentry kind="lib" path="accessing-data-mongo/build/classes/java/main" module="accessing-data-mongo___main" displaymodule="accessing-data-mongo.main" />
+    <classpathentry kind="lib" path="managing-transactions/build/classes/java/main" module="managing-transactions___main" displaymodule="managing-transactions.main" />
+    <classpathentry kind="lib" path="accessing-data-gemfire-geode/build/classes/java/main" module="accessing-data-gemfire-geode___main" displaymodule="accessing-data-gemfire-geode.main" />
+    <classpathentry kind="lib" path="messaging-stomp-websocket/build/classes/java/main" module="messaging-stomp-websocket___main" displaymodule="messaging-stomp-websocket.main" />
+    <classpathentry kind="lib" path="actuator-service/build/classes/java/main" module="actuator-service___main" displaymodule="actuator-service.main" />
+    <classpathentry kind="lib" path="accessing-data-mysql/build/classes/java/main" module="accessing-data-mysql___main" displaymodule="accessing-data-mysql.main" />
+    <classpathentry kind="lib" path="centralized-configuration/config-server/build/classes/java/main" module="config-server___main" displaymodule="config-server.main" />
+    <classpathentry kind="lib" path="vault-config/build/classes/java/main" module="vault-config___main" displaymodule="vault-config.main" />
+    <classpathentry kind="lib" path="messaging-redis/build/classes/java/main" module="messaging-redis___main" displaymodule="messaging-redis.main" />
+    <classpathentry kind="lib" path="reactive-rest-service/build/classes/java/main" module="reactive-rest-service___main" displaymodule="reactive-rest-service.main" />
+    <classpathentry kind="lib" path="centralized-configuration/config-client/build/classes/java/main" module="config-client___main" displaymodule="config-client.main" />
+    <classpathentry kind="lib" path="accessing-data-r2dbc/build/classes/java/main" module="accessing-data-r2dbc___main" displaymodule="accessing-data-r2dbc.main" />
+    <classpathentry kind="lib" path="accessing-data-jpa/build/classes/java/main" module="accessing-data-jpa___main" displaymodule="accessing-data-jpa.main" />
+    <classpathentry kind="lib" path="uploading-files/build/classes/java/main" module="uploading-files___main" displaymodule="uploading-files.main" />
+    <classpathentry kind="lib" path="authenticating-ldap/build/classes/java/main" module="authenticating-ldap___main" displaymodule="authenticating-ldap.main" />
+    <classpathentry kind="lib" path="accessing-data-neo4j/build/classes/java/main" module="accessing-data-neo4j___main" displaymodule="accessing-data-neo4j.main" />
+    <classpathentry kind="lib" path="soap-service/build/classes/java/main" module="soap-service___main" displaymodule="soap-service.main" />
+    <classpathentry kind="lib" path="rest-hateoas/build/classes/java/main" module="rest-hateoas___main" displaymodule="rest-hateoas.main" />
+    <classpathentry kind="lib" path="testing-restdocs/build/classes/java/main" module="testing-restdocs___main" displaymodule="testing-restdocs.main" />
+    <classpathentry kind="lib" path="multi-module/library/build/classes/java/main" module="multi-module___library___main" displaymodule="multi-module.library.main" />
+    <classpathentry kind="lib" path="contract-rest/contract-rest-service/build/classes/java/main" module="contract-rest-service___main" displaymodule="contract-rest-service.main" />
+    <classpathentry kind="lib" path="messaging-rabbitmq/build/classes/java/main" module="messaging-rabbitmq___main" displaymodule="messaging-rabbitmq.main" />
+    <classpathentry kind="lib" path="routing-and-filtering/BookApplication/build/classes/java/main" module="BookApplication___main" displaymodule="BookApplication.main" />
+    <classpathentry kind="lib" path="cloud-circuit-breaker/bookstore/build/classes/java/main" module="bookstore___main" displaymodule="bookstore.main" />
+    <classpathentry kind="lib" path="testing-web/build/classes/java/main" module="testing-web___main" displaymodule="testing-web.main" />
+    <classpathentry kind="lib" path="serving-web-content-mvc/build/classes/java/main" module="serving-web-content-mvc___main" displaymodule="serving-web-content-mvc.main" />
+    <classpathentry kind="lib" path="validating-form-input/build/classes/java/main" module="validating-form-input___main" displaymodule="validating-form-input.main" />
+    <classpathentry kind="lib" path="accessing-data-rest/build/classes/java/main" module="accessing-data-rest___main" displaymodule="accessing-data-rest.main" />
+    <classpathentry kind="lib" path="spring-data-reactive-redis/build/classes/java/main" module="spring-data-reactive-redis___main" displaymodule="spring-data-reactive-redis.main" />
+  </classpath>
+  <pom-root-files />
+  <modules>
+    <module name="vault-config___main" kind="ide-project" />
+    <module name="vault-config" kind="ide-project" />
+    <module name="validating-form-input___main" kind="ide-project" />
+    <module name="validating-form-input" kind="ide-project" />
+    <module name="User___main" kind="ide-project" />
+    <module name="User" kind="ide-project" />
+    <module name="uploading-files___main" kind="ide-project" />
+    <module name="uploading-files" kind="ide-project" />
+    <module name="testing-web___main" kind="ide-project" />
+    <module name="testing-web" kind="ide-project" />
+    <module name="testing-restdocs___main" kind="ide-project" />
+    <module name="testing-restdocs" kind="ide-project" />
+    <module name="SpringTutorials___spring-cloud-load-balancer" kind="ide-project" />
+    <module name="SpringTutorials___service-discovery___main" kind="ide-project" />
+    <module name="SpringTutorials___service-discovery" kind="ide-project" />
+    <module name="SpringTutorials___routing-and-filtering___main" kind="ide-project" />
+    <module name="SpringTutorials___routing-and-filtering" kind="ide-project" />
+    <module name="SpringTutorials___rest-contract" kind="ide-project" />
+    <module name="SpringTutorials___main" kind="ide-project" />
+    <module name="SpringTutorials___contract-rest___main" kind="ide-project" />
+    <module name="SpringTutorials___contract-rest" kind="ide-project" />
+    <module name="SpringTutorials___centralized-configuration___main" kind="ide-project" />
+    <module name="SpringTutorials___centralized-configuration" kind="ide-project" />
+    <module name="SpringTutorials" kind="ide-project" />
+    <module name="spring-data-reactive-redis___main" kind="ide-project" />
+    <module name="spring-data-reactive-redis" kind="ide-project" />
+    <module name="spring-boot-starter___main" kind="ide-project" />
+    <module name="spring-boot-starter" kind="ide-project" />
+    <module name="spring-boot-docker___main" kind="ide-project" />
+    <module name="spring-boot-docker" kind="ide-project" />
+    <module name="soap-service___main" kind="ide-project" />
+    <module name="soap-service" kind="ide-project" />
+    <module name="serving-web-content-mvc___main" kind="ide-project" />
+    <module name="serving-web-content-mvc" kind="ide-project" />
+    <module name="securing-webapp___main" kind="ide-project" />
+    <module name="securing-webapp" kind="ide-project" />
+    <module name="scheduling-tasks___main" kind="ide-project" />
+    <module name="scheduling-tasks" kind="ide-project" />
+    <module name="SayHello___main" kind="ide-project" />
+    <module name="SayHello" kind="ide-project" />
+    <module name="rest-service___main" kind="ide-project" />
+    <module name="rest-service" kind="ide-project" />
+    <module name="rest-service-cors___main" kind="ide-project" />
+    <module name="rest-service-cors" kind="ide-project" />
+    <module name="rest-hateoas___main" kind="ide-project" />
+    <module name="rest-hateoas" kind="ide-project" />
+    <module name="relational-data-access___main" kind="ide-project" />
+    <module name="relational-data-access" kind="ide-project" />
+    <module name="reading___main" kind="ide-project" />
+    <module name="reading" kind="ide-project" />
+    <module name="reactive-rest-service___main" kind="ide-project" />
+    <module name="reactive-rest-service" kind="ide-project" />
+    <module name="multi-module___main" kind="ide-project" />
+    <module name="multi-module___library___main" kind="ide-project" />
+    <module name="multi-module___library" kind="ide-project" />
+    <module name="multi-module___application" kind="ide-project" />
+    <module name="multi-module" kind="ide-project" />
+    <module name="messaging-stomp-websocket___main" kind="ide-project" />
+    <module name="messaging-stomp-websocket" kind="ide-project" />
+    <module name="messaging-redis___main" kind="ide-project" />
+    <module name="messaging-redis" kind="ide-project" />
+    <module name="messaging-rabbitmq___main" kind="ide-project" />
+    <module name="messaging-rabbitmq" kind="ide-project" />
+    <module name="messaging-jms___main" kind="ide-project" />
+    <module name="messaging-jms" kind="ide-project" />
+    <module name="managing-transactions___main" kind="ide-project" />
+    <module name="managing-transactions" kind="ide-project" />
+    <module name="integration___main" kind="ide-project" />
+    <module name="integration" kind="ide-project" />
+    <module name="handling-form-submission___main" kind="ide-project" />
+    <module name="handling-form-submission" kind="ide-project" />
+    <module name="gs-gradle___main" kind="ide-project" />
+    <module name="gs-gradle" kind="ide-project" />
+    <module name="gateway___main" kind="ide-project" />
+    <module name="gateway" kind="ide-project" />
+    <module name="eureka-service___main" kind="ide-project" />
+    <module name="eureka-service" kind="ide-project" />
+    <module name="eureka-client___main" kind="ide-project" />
+    <module name="eureka-client" kind="ide-project" />
+    <module name="EdgeService___main" kind="ide-project" />
+    <module name="EdgeService" kind="ide-project" />
+    <module name="contract-rest-service___main" kind="ide-project" />
+    <module name="contract-rest-service" kind="ide-project" />
+    <module name="contract-rest-client___main" kind="ide-project" />
+    <module name="contract-rest-client" kind="ide-project" />
+    <module name="consuming-web-service___main" kind="ide-project" />
+    <module name="consuming-web-service" kind="ide-project" />
+    <module name="consuming-rest___main" kind="ide-project" />
+    <module name="consuming-rest" kind="ide-project" />
+    <module name="consuming-rest-jquery" kind="ide-project" />
+    <module name="consuming-rest-angularjs" kind="ide-project" />
+    <module name="config-server___main" kind="ide-project" />
+    <module name="config-server" kind="ide-project" />
+    <module name="config-client___main" kind="ide-project" />
+    <module name="config-client" kind="ide-project" />
+    <module name="cloud-circuit-breaker___main" kind="ide-project" />
+    <module name="cloud-circuit-breaker" kind="ide-project" />
+    <module name="caching___main" kind="ide-project" />
+    <module name="caching" kind="ide-project" />
+    <module name="bookstore___main" kind="ide-project" />
+    <module name="bookstore" kind="ide-project" />
+    <module name="BookApplication___main" kind="ide-project" />
+    <module name="BookApplication" kind="ide-project" />
+    <module name="blog___main" kind="ide-project" />
+    <module name="blog" kind="ide-project" />
+    <module name="batch-processing___main" kind="ide-project" />
+    <module name="batch-processing" kind="ide-project" />
+    <module name="authenticating-ldap___main" kind="ide-project" />
+    <module name="authenticating-ldap" kind="ide-project" />
+    <module name="async-method___main" kind="ide-project" />
+    <module name="async-method" kind="ide-project" />
+    <module name="actuator-service___main" kind="ide-project" />
+    <module name="actuator-service" kind="ide-project" />
+    <module name="accessing-vault___main" kind="ide-project" />
+    <module name="accessing-vault" kind="ide-project" />
+    <module name="accessing-neo4j-data-rest___main" kind="ide-project" />
+    <module name="accessing-neo4j-data-rest" kind="ide-project" />
+    <module name="accessing-mongo-data-rest___main" kind="ide-project" />
+    <module name="accessing-mongo-data-rest" kind="ide-project" />
+    <module name="accessing-data-rest___main" kind="ide-project" />
+    <module name="accessing-data-rest" kind="ide-project" />
+    <module name="accessing-data-r2dbc___main" kind="ide-project" />
+    <module name="accessing-data-r2dbc" kind="ide-project" />
+    <module name="accessing-data-neo4j___main" kind="ide-project" />
+    <module name="accessing-data-neo4j" kind="ide-project" />
+    <module name="accessing-data-mysql___main" kind="ide-project" />
+    <module name="accessing-data-mysql" kind="ide-project" />
+    <module name="accessing-data-mongo___main" kind="ide-project" />
+    <module name="accessing-data-mongo" kind="ide-project" />
+    <module name="accessing-data-jpa___main" kind="ide-project" />
+    <module name="accessing-data-jpa" kind="ide-project" />
+    <module name="accessing-data-gemfire-geode___main" kind="ide-project" />
+    <module name="accessing-data-gemfire-geode" kind="ide-project" />
+    <module name="accessing-data-gemfire-geode-rest___main" kind="ide-project" />
+    <module name="accessing-data-gemfire-geode-rest" kind="ide-project" />
+    <module name="vault-config___test" kind="ide-project">
+      <requires name="vault-config___main" kind="ide-project" />
+    </module>
+    <module name="validating-form-input___test" kind="ide-project">
+      <requires name="validating-form-input___main" kind="ide-project" />
+    </module>
+    <module name="User___test" kind="ide-project">
+      <requires name="User___main" kind="ide-project" />
+    </module>
+    <module name="uploading-files___test" kind="ide-project">
+      <requires name="uploading-files___main" kind="ide-project" />
+    </module>
+    <module name="testing-web___test" kind="ide-project">
+      <requires name="testing-web___main" kind="ide-project" />
+    </module>
+    <module name="testing-restdocs___test" kind="ide-project">
+      <requires name="testing-restdocs___main" kind="ide-project" />
+    </module>
+    <module name="SpringTutorials___test" kind="ide-project">
+      <requires name="SpringTutorials___main" kind="ide-project" />
+    </module>
+    <module name="SpringTutorials___service-discovery___test" kind="ide-project">
+      <requires name="SpringTutorials___service-discovery___main" kind="ide-project" />
+    </module>
+    <module name="SpringTutorials___routing-and-filtering___test" kind="ide-project">
+      <requires name="SpringTutorials___routing-and-filtering___main" kind="ide-project" />
+    </module>
+    <module name="SpringTutorials___contract-rest___test" kind="ide-project">
+      <requires name="SpringTutorials___contract-rest___main" kind="ide-project" />
+    </module>
+    <module name="SpringTutorials___centralized-configuration___test" kind="ide-project">
+      <requires name="SpringTutorials___centralized-configuration___main" kind="ide-project" />
+    </module>
+    <module name="spring-data-reactive-redis___test" kind="ide-project">
+      <requires name="spring-data-reactive-redis___main" kind="ide-project" />
+    </module>
+    <module name="spring-boot-starter___test" kind="ide-project">
+      <requires name="spring-boot-starter___main" kind="ide-project" />
+    </module>
+    <module name="spring-boot-docker___test" kind="ide-project">
+      <requires name="spring-boot-docker___main" kind="ide-project" />
+    </module>
+    <module name="soap-service___test" kind="ide-project">
+      <requires name="soap-service___main" kind="ide-project" />
+    </module>
+    <module name="serving-web-content-mvc___test" kind="ide-project">
+      <requires name="serving-web-content-mvc___main" kind="ide-project" />
+    </module>
+    <module name="securing-webapp___test" kind="ide-project">
+      <requires name="securing-webapp___main" kind="ide-project" />
+    </module>
+    <module name="scheduling-tasks___test" kind="ide-project">
+      <requires name="scheduling-tasks___main" kind="ide-project" />
+    </module>
+    <module name="SayHello___test" kind="ide-project">
+      <requires name="SayHello___main" kind="ide-project" />
+    </module>
+    <module name="rest-service___test" kind="ide-project">
+      <requires name="rest-service___main" kind="ide-project" />
+    </module>
+    <module name="rest-service-cors___test" kind="ide-project">
+      <requires name="rest-service-cors___main" kind="ide-project" />
+    </module>
+    <module name="rest-hateoas___test" kind="ide-project">
+      <requires name="rest-hateoas___main" kind="ide-project" />
+    </module>
+    <module name="relational-data-access___test" kind="ide-project">
+      <requires name="relational-data-access___main" kind="ide-project" />
+    </module>
+    <module name="reading___test" kind="ide-project">
+      <requires name="reading___main" kind="ide-project" />
+    </module>
+    <module name="reactive-rest-service___test" kind="ide-project">
+      <requires name="reactive-rest-service___main" kind="ide-project" />
+    </module>
+    <module name="multi-module___test" kind="ide-project">
+      <requires name="multi-module___main" kind="ide-project" />
+    </module>
+    <module name="multi-module___library___test" kind="ide-project">
+      <requires name="multi-module___library___main" kind="ide-project" />
+    </module>
+    <module name="multi-module___application___main" kind="ide-project">
+      <requires name="multi-module___library___main" kind="ide-project" />
+    </module>
+    <module name="messaging-stomp-websocket___test" kind="ide-project">
+      <requires name="messaging-stomp-websocket___main" kind="ide-project" />
+    </module>
+    <module name="messaging-redis___test" kind="ide-project">
+      <requires name="messaging-redis___main" kind="ide-project" />
+    </module>
+    <module name="messaging-rabbitmq___test" kind="ide-project">
+      <requires name="messaging-rabbitmq___main" kind="ide-project" />
+    </module>
+    <module name="messaging-jms___test" kind="ide-project">
+      <requires name="messaging-jms___main" kind="ide-project" />
+    </module>
+    <module name="managing-transactions___test" kind="ide-project">
+      <requires name="managing-transactions___main" kind="ide-project" />
+    </module>
+    <module name="integration___test" kind="ide-project">
+      <requires name="integration___main" kind="ide-project" />
+    </module>
+    <module name="handling-form-submission___test" kind="ide-project">
+      <requires name="handling-form-submission___main" kind="ide-project" />
+    </module>
+    <module name="gs-gradle___test" kind="ide-project">
+      <requires name="gs-gradle___main" kind="ide-project" />
+    </module>
+    <module name="gateway___test" kind="ide-project">
+      <requires name="gateway___main" kind="ide-project" />
+    </module>
+    <module name="eureka-service___test" kind="ide-project">
+      <requires name="eureka-service___main" kind="ide-project" />
+    </module>
+    <module name="eureka-client___test" kind="ide-project">
+      <requires name="eureka-client___main" kind="ide-project" />
+    </module>
+    <module name="EdgeService___test" kind="ide-project">
+      <requires name="EdgeService___main" kind="ide-project" />
+    </module>
+    <module name="contract-rest-service___test" kind="ide-project">
+      <requires name="contract-rest-service___main" kind="ide-project" />
+    </module>
+    <module name="contract-rest-client___test" kind="ide-project">
+      <requires name="contract-rest-client___main" kind="ide-project" />
+    </module>
+    <module name="consuming-web-service___test" kind="ide-project">
+      <requires name="consuming-web-service___main" kind="ide-project" />
+    </module>
+    <module name="consuming-rest___test" kind="ide-project">
+      <requires name="consuming-rest___main" kind="ide-project" />
+    </module>
+    <module name="config-server___test" kind="ide-project">
+      <requires name="config-server___main" kind="ide-project" />
+    </module>
+    <module name="config-client___test" kind="ide-project">
+      <requires name="config-client___main" kind="ide-project" />
+    </module>
+    <module name="cloud-circuit-breaker___test" kind="ide-project">
+      <requires name="cloud-circuit-breaker___main" kind="ide-project" />
+    </module>
+    <module name="caching___test" kind="ide-project">
+      <requires name="caching___main" kind="ide-project" />
+    </module>
+    <module name="bookstore___test" kind="ide-project">
+      <requires name="bookstore___main" kind="ide-project" />
+    </module>
+    <module name="BookApplication___test" kind="ide-project">
+      <requires name="BookApplication___main" kind="ide-project" />
+    </module>
+    <module name="blog___test" kind="ide-project">
+      <requires name="blog___main" kind="ide-project" />
+    </module>
+    <module name="batch-processing___test" kind="ide-project">
+      <requires name="batch-processing___main" kind="ide-project" />
+    </module>
+    <module name="authenticating-ldap___test" kind="ide-project">
+      <requires name="authenticating-ldap___main" kind="ide-project" />
+    </module>
+    <module name="async-method___test" kind="ide-project">
+      <requires name="async-method___main" kind="ide-project" />
+    </module>
+    <module name="actuator-service___test" kind="ide-project">
+      <requires name="actuator-service___main" kind="ide-project" />
+    </module>
+    <module name="accessing-vault___test" kind="ide-project">
+      <requires name="accessing-vault___main" kind="ide-project" />
+    </module>
+    <module name="accessing-neo4j-data-rest___test" kind="ide-project">
+      <requires name="accessing-neo4j-data-rest___main" kind="ide-project" />
+    </module>
+    <module name="accessing-mongo-data-rest___test" kind="ide-project">
+      <requires name="accessing-mongo-data-rest___main" kind="ide-project" />
+    </module>
+    <module name="accessing-data-rest___test" kind="ide-project">
+      <requires name="accessing-data-rest___main" kind="ide-project" />
+    </module>
+    <module name="accessing-data-r2dbc___test" kind="ide-project">
+      <requires name="accessing-data-r2dbc___main" kind="ide-project" />
+    </module>
+    <module name="accessing-data-neo4j___test" kind="ide-project">
+      <requires name="accessing-data-neo4j___main" kind="ide-project" />
+    </module>
+    <module name="accessing-data-mysql___test" kind="ide-project">
+      <requires name="accessing-data-mysql___main" kind="ide-project" />
+    </module>
+    <module name="accessing-data-mongo___test" kind="ide-project">
+      <requires name="accessing-data-mongo___main" kind="ide-project" />
+    </module>
+    <module name="accessing-data-jpa___test" kind="ide-project">
+      <requires name="accessing-data-jpa___main" kind="ide-project" />
+    </module>
+    <module name="accessing-data-gemfire-geode___test" kind="ide-project">
+      <requires name="accessing-data-gemfire-geode___main" kind="ide-project" />
+    </module>
+    <module name="accessing-data-gemfire-geode-rest___test" kind="ide-project">
+      <requires name="accessing-data-gemfire-geode-rest___main" kind="ide-project" />
+    </module>
+    <module name="multi-module___application___test" kind="ide-project">
+      <requires name="multi-module___application___main" kind="ide-project" />
+      <requires name="multi-module___library___main" kind="ide-project" />
+    </module>
+    <module name="contract-rest-service___contractTest" kind="ide-project">
+      <requires name="contract-rest-service___main" kind="ide-project" />
+      <requires name="contract-rest-service___test" kind="ide-project" />
+    </module>
+  </modules>
+  <modules-in-scope>
+    <module name="blog___main" />
+    <module name="blog___test" />
+    <module name="blog" />
+    <module name="bookstore___main" />
+    <module name="bookstore___test" />
+    <module name="multi-module" />
+    <module name="multi-module___library___main" />
+    <module name="multi-module___library" />
+    <module name="multi-module___library___test" />
+    <module name="multi-module___application" />
+    <module name="cloud-circuit-breaker___main" />
+    <module name="reading___main" />
+    <module name="reading___test" />
+    <module name="bookstore" />
+    <module name="cloud-circuit-breaker___test" />
+    <module name="reading" />
+    <module name="cloud-circuit-breaker" />
+    <module name="multi-module___application___main" />
+    <module name="multi-module___application___test" />
+    <module name="multi-module___main" />
+    <module name="multi-module___test" />
+    <module name="accessing-data-r2dbc___main" />
+    <module name="accessing-data-r2dbc___test" />
+    <module name="accessing-data-r2dbc" />
+    <module name="relational-data-access" />
+    <module name="soap-service___main" />
+    <module name="accessing-data-jpa" />
+    <module name="contract-rest-client___main" />
+    <module name="securing-webapp" />
+    <module name="eureka-service___main" />
+    <module name="accessing-mongo-data-rest___main" />
+    <module name="spring-data-reactive-redis" />
+    <module name="testing-web___main" />
+    <module name="accessing-data-jpa___main" />
+    <module name="EdgeService___main" />
+    <module name="SpringTutorials___service-discovery___main" />
+    <module name="batch-processing" />
+    <module name="vault-config" />
+    <module name="relational-data-access___main" />
+    <module name="testing-restdocs" />
+    <module name="accessing-neo4j-data-rest" />
+    <module name="SpringTutorials___rest-contract" />
+    <module name="messaging-jms___main" />
+    <module name="authenticating-ldap___main" />
+    <module name="scheduling-tasks" />
+    <module name="securing-webapp___main" />
+    <module name="authenticating-ldap" />
+    <module name="eureka-client" />
+    <module name="consuming-rest___main" />
+    <module name="config-server___main" />
+    <module name="SpringTutorials___routing-and-filtering" />
+    <module name="spring-boot-starter" />
+    <module name="accessing-data-rest" />
+    <module name="reactive-rest-service___main" />
+    <module name="reactive-rest-service___test" />
+    <module name="messaging-rabbitmq" />
+    <module name="integration___main" />
+    <module name="integration___test" />
+    <module name="SpringTutorials___contract-rest" />
+    <module name="consuming-rest-angularjs" />
+    <module name="User___main" />
+    <module name="rest-hateoas" />
+    <module name="spring-boot-starter___main" />
+    <module name="scheduling-tasks___main" />
+    <module name="gs-gradle___main" />
+    <module name="accessing-vault___main" />
+    <module name="consuming-rest-jquery" />
+    <module name="SpringTutorials___centralized-configuration" />
+    <module name="SpringTutorials___service-discovery___test" />
+    <module name="accessing-mongo-data-rest" />
+    <module name="config-client" />
+    <module name="validating-form-input___main" />
+    <module name="accessing-data-mysql___main" />
+    <module name="managing-transactions" />
+    <module name="messaging-jms" />
+    <module name="contract-rest-service___main" />
+    <module name="caching___main" />
+    <module name="User" />
+    <module name="caching" />
+    <module name="messaging-redis___main" />
+    <module name="testing-web___test" />
+    <module name="accessing-data-jpa___test" />
+    <module name="messaging-rabbitmq___main" />
+    <module name="messaging-rabbitmq___test" />
+    <module name="rest-service" />
+    <module name="EdgeService___test" />
+    <module name="gs-gradle" />
+    <module name="gateway___main" />
+    <module name="gateway___test" />
+    <module name="accessing-data-neo4j" />
+    <module name="accessing-neo4j-data-rest___main" />
+    <module name="accessing-neo4j-data-rest___test" />
+    <module name="config-server" />
+    <module name="soap-service___test" />
+    <module name="messaging-redis" />
+    <module name="messaging-jms___test" />
+    <module name="rest-hateoas___main" />
+    <module name="rest-hateoas___test" />
+    <module name="spring-boot-docker" />
+    <module name="SpringTutorials___service-discovery" />
+    <module name="consuming-web-service___main" />
+    <module name="consuming-web-service___test" />
+    <module name="eureka-service___test" />
+    <module name="accessing-mongo-data-rest___test" />
+    <module name="batch-processing___main" />
+    <module name="batch-processing___test" />
+    <module name="testing-restdocs___main" />
+    <module name="testing-restdocs___test" />
+    <module name="SpringTutorials___spring-cloud-load-balancer" />
+    <module name="soap-service" />
+    <module name="relational-data-access___test" />
+    <module name="consuming-rest___test" />
+    <module name="accessing-data-gemfire-geode___main" />
+    <module name="accessing-data-gemfire-geode___test" />
+    <module name="accessing-data-gemfire-geode" />
+    <module name="BookApplication___main" />
+    <module name="BookApplication___test" />
+    <module name="authenticating-ldap___test" />
+    <module name="serving-web-content-mvc___main" />
+    <module name="serving-web-content-mvc___test" />
+    <module name="accessing-data-mysql" />
+    <module name="managing-transactions___main" />
+    <module name="managing-transactions___test" />
+    <module name="async-method___main" />
+    <module name="async-method___test" />
+    <module name="handling-form-submission" />
+    <module name="accessing-data-gemfire-geode-rest___main" />
+    <module name="accessing-data-gemfire-geode-rest___test" />
+    <module name="accessing-data-rest___main" />
+    <module name="accessing-data-rest___test" />
+    <module name="SpringTutorials___main" />
+    <module name="SpringTutorials___test" />
+    <module name="securing-webapp___test" />
+    <module name="eureka-client___main" />
+    <module name="eureka-client___test" />
+    <module name="accessing-data-neo4j___main" />
+    <module name="accessing-data-neo4j___test" />
+    <module name="vault-config___main" />
+    <module name="vault-config___test" />
+    <module name="scheduling-tasks___test" />
+    <module name="contract-rest-service" />
+    <module name="integration" />
+    <module name="consuming-rest" />
+    <module name="config-server___test" />
+    <module name="spring-data-reactive-redis___main" />
+    <module name="spring-data-reactive-redis___test" />
+    <module name="accessing-data-mysql___test" />
+    <module name="validating-form-input___test" />
+    <module name="serving-web-content-mvc" />
+    <module name="messaging-stomp-websocket___main" />
+    <module name="messaging-stomp-websocket___test" />
+    <module name="contract-rest-service___test" />
+    <module name="accessing-vault" />
+    <module name="handling-form-submission___main" />
+    <module name="handling-form-submission___test" />
+    <module name="actuator-service___main" />
+    <module name="actuator-service___test" />
+    <module name="async-method" />
+    <module name="eureka-service" />
+    <module name="SpringTutorials___contract-rest___main" />
+    <module name="SpringTutorials___contract-rest___test" />
+    <module name="testing-web" />
+    <module name="User___test" />
+    <module name="validating-form-input" />
+    <module name="rest-service-cors" />
+    <module name="spring-boot-starter___test" />
+    <module name="BookApplication" />
+    <module name="messaging-redis___test" />
+    <module name="SpringTutorials" />
+    <module name="rest-service___main" />
+    <module name="rest-service___test" />
+    <module name="contract-rest-service___contractTest" />
+    <module name="accessing-data-mongo" />
+    <module name="gs-gradle___test" />
+    <module name="reactive-rest-service" />
+    <module name="accessing-vault___test" />
+    <module name="messaging-stomp-websocket" />
+    <module name="config-client___main" />
+    <module name="config-client___test" />
+    <module name="EdgeService" />
+    <module name="uploading-files___main" />
+    <module name="uploading-files___test" />
+    <module name="accessing-data-mongo___main" />
+    <module name="accessing-data-mongo___test" />
+    <module name="rest-service-cors___main" />
+    <module name="rest-service-cors___test" />
+    <module name="SayHello___main" />
+    <module name="SayHello___test" />
+    <module name="gateway" />
+    <module name="contract-rest-client___test" />
+    <module name="consuming-web-service" />
+    <module name="contract-rest-client" />
+    <module name="actuator-service" />
+    <module name="caching___test" />
+    <module name="accessing-data-gemfire-geode-rest" />
+    <module name="SpringTutorials___centralized-configuration___main" />
+    <module name="SpringTutorials___centralized-configuration___test" />
+    <module name="spring-boot-docker___main" />
+    <module name="spring-boot-docker___test" />
+    <module name="uploading-files" />
+    <module name="SayHello" />
+    <module name="SpringTutorials___routing-and-filtering___main" />
+    <module name="SpringTutorials___routing-and-filtering___test" />
+  </modules-in-scope>
+  <excludes>
+    <exclude expression="*.*&amp;amp;*" active="true" />
+  </excludes>
+  <restructuring>
+    <set version="3" name="Action list 1" hiview="Codemap" active="true" todo="false" list="0" />
+  </restructuring>
+  <grid-set sep="." version="6.0.18139" />
+</local-project>
