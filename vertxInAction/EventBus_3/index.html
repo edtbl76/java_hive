@@ -1,0 +1,33 @@
+<div id="avg"></div>>
+<div id="main"></div>
+<script language="JavaScript">
+
+    // EventSource objects deal w/ ServerSent Events (SSE)
+    const sse = new EventSource("/sse");
+    const main = document.getElementById("main");
+    const avg = document.getElementById("avg");
+
+    // The evt callback listens for SSE event of type "update"
+    sse.addEventListener("update", evt => {
+
+        // response data is in plaintext, so we need to parse it to JSON
+        const data = JSON.parse(evt.data);
+        let div = document.getElementById(data.id);
+
+        // if sensor doesn't have a "div" for displaying the data, then we create it.
+        if (div === null) {
+            div = document.createElement("div");
+            div.setAttribute("id", data.id);
+            main.appendChild(div);
+        }
+
+        // updates div for temperature
+        div.innerHTML = `<strong>${data.temp.toFixed(2)}</strong>(<em>${data.id}</em>)`
+    });
+
+    // the evt callback listening for server sent events of type "average"
+    sse.addEventListener("average", evt => {
+        const data = JSON.parse(evt.data);
+        avg.innerText = `Average = ${data.average.toFixed(2)}`
+    })
+</script>
