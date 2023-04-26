@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<local-project language="java" version="6.1.20423" xml-version="3" flavor="j2se">
+  <property name="parse-archive-in-archive" value="false" />
+  <property name="include-injected-dependency" value="false" />
+  <property name="relative-to" value="const(THIS_FILE)" />
+  <property name="action-set-mod" value="1" />
+  <property name="force-classpath" value="false" />
+  <property name="detail-mode" value="true" />
+  <property name="hide-deprecated" value="false" />
+  <property name="resolve-name-clashes" value="true" />
+  <property name="project-excluded" />
+  <property name="show-needs-to-compile" value="false" />
+  <property name="project-type" value="classpath" />
+  <property name="hide-externals" value="true" />
+  <classpath>
+    <classpathentry kind="lib" path="LanguageFamilies/target/classes" module="LanguageFamilies" displaymodule="LanguageFamilies" />
+    <classpathentry kind="lib" path="CarLoanPaymentCalculator/target/classes" module="CarLoanPaymentCalculator" displaymodule="CarLoanPaymentCalculator" />
+    <classpathentry kind="lib" path="DNASequence/target/classes" module="DNASequence" displaymodule="DNASequence" />
+    <classpathentry kind="lib" path="RemovingElementsIteratively/target/classes" module="RemovingElementsIteratively" displaymodule="RemovingElementsIteratively" />
+    <classpathentry kind="lib" path="FizzBuzz/target/classes" module="FizzBuzz" displaymodule="FizzBuzz" />
+    <classpathentry kind="lib" path="ImageProcessing/target/classes" module="ImageProcessing" displaymodule="ImageProcessing" />
+    <classpathentry kind="lib" path="PrimeDirective/target/classes" module="PrimeDirective" displaymodule="PrimeDirective" />
+    <classpathentry kind="lib" path="DesertIslandPlaylist/target/classes" module="DesertIslandPlaylist" displaymodule="DesertIslandPlaylist" />
+  </classpath>
+  <pom-root-files />
+  <modules>
+    <module name="SavingsAccount" kind="ide-project" />
+    <module name="RowVColumns" kind="ide-project" />
+    <module name="RemovingElementsIteratively" kind="ide-project" />
+    <module name="PrimeDirective" kind="ide-project" />
+    <module name="PlantingTree" kind="ide-project" />
+    <module name="MathMagic" kind="ide-project" />
+    <module name="MadLibs" kind="ide-project" />
+    <module name="learn_java" kind="ide-project" />
+    <module name="LanguageFamilies" kind="ide-project" />
+    <module name="ImageProcessing" kind="ide-project" />
+    <module name="FizzBuzz" kind="ide-project" />
+    <module name="DNASequence" kind="ide-project" />
+    <module name="DesertIslandPlaylist" kind="ide-project" />
+    <module name="ContinentsAndCities" kind="ide-project" />
+    <module name="CarLoanPaymentCalculator" kind="ide-project" />
+    <module name="BuildADroid" kind="ide-project" />
+    <module name="BasicCalculator" kind="ide-project" />
+  </modules>
+  <modules-in-scope>
+    <module name="ImageProcessing" />
+    <module name="RowVColumns" />
+    <module name="LanguageFamilies" />
+    <module name="DNASequence" />
+    <module name="PrimeDirective" />
+    <module name="FizzBuzz" />
+    <module name="RemovingElementsIteratively" />
+    <module name="DesertIslandPlaylist" />
+    <module name="ContinentsAndCities" />
+    <module name="MathMagic" />
+    <module name="MadLibs" />
+    <module name="PlantingTree" />
+    <module name="BuildADroid" />
+    <module name="BasicCalculator" />
+    <module name="SavingsAccount" />
+    <module name="CarLoanPaymentCalculator" />
+    <module name="learn_java" />
+  </modules-in-scope>
+  <excludes>
+    <exclude expression="*.*&amp;amp;*" active="true" />
+  </excludes>
+  <restructuring>
+    <set version="3" name="Action list 1" hiview="Codemap" active="true" todo="false" list="0" />
+  </restructuring>
+  <grid-set sep="." version="6.1.20423" />
+</local-project>
