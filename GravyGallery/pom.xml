@@ -17,7 +17,7 @@
         <lombok.version>1.18.18</lombok.version>
         <mockito.jupiter.version>3.7.7</mockito.jupiter.version>
         <selenium.jupiter.version>3.4.0</selenium.jupiter.version>
-        <spring.boot.version>2.4.2</spring.boot.version>
+        <spring.boot.version>2.5.12</spring.boot.version>
 
 
         <sonar.projectKey>edtbl76_GravyGallery</sonar.projectKey>
