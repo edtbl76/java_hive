@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/xsd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <!-- JDBC Database connection settings -->
+        <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/hibernatetest</property>
+        <property name="hibernate.connection.password">Xav!er76T@lisk3r</property>
+        <property name="hibernate.connection.username">root</property>
+
+        <!-- JDBC connection pool settings -->
+        <property name="connection.pool_size">5</property>
+
+        <!-- SQL dialect -->
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</property>
+
+        <!-- Echo SQL to STDOUT -->
+        <property name="show_sql">true</property>
+
+        <!-- set current session context -->
+        <property name="current_session_context_class">thread</property>
+
+        <!-- drop + re-create DB schema on start -->
+        <property name="hibernate.hbm2ddl.auto">update</property>
+
+        <!-- dbcp connection pool configuration-->
+        <property name="hibernate.dbcp.initialSize">5</property>
+        <property name="hibernate.dbcp.maxTotal">20</property>
+        <property name="hibernate.dbcp.maxIdle">10</property>
+        <property name="hibernate.dbcp.minIdle">10</property>
+        <property name="hibernate.dbcp.maxWaitMillis">-1</property>
+
+
+        <mapping class="HibernateUtils.EmployeeEntity"/>
+        <mapping class="HibernateUtils.EmployeeEntity2"/>
+        <mapping class="HibernateUtils.EmployeeEntityOR"/>
+        <mapping class="HibernateUtils.AccountEntity"/>
+        <mapping class="HibernateUtils.AccountEntity2" />
+        <mapping class="HibernateUtils.AccountEntityOR" />
+    </session-factory>
+</hibernate-configuration>

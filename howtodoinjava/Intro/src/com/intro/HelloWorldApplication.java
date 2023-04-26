@@ -1,0 +1,10 @@
+package com.intro;
+
+import java.lang.String;
+
+public class HelloWorldApplication {
+
+    public static void main(String[] args) {
+        System.out.println("Sup, bitches!");
+    }
+}
