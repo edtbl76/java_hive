@@ -1,0 +1,79 @@
+@startuml
+package widgetfactory {
+    interface WidgetFactory {
+        + {abstract} ButtonWidget createButtonWidget()
+        + {abstract} ScrollBarWidget createScrollBarWidget()
+    }
+    class LinuxWidgetFactory implements WidgetFactory {
+        + ButtonWidget createButtonWidget()
+        + ScrollBarWidget createScrollBarWidget()
+    }
+    class WindowsWidgetFactory implements WidgetFactory {
+        + ButtonWidget createButtonWidget()
+        + ScrollBarWidget createScrollBarWidget()
+    }
+}
+
+package widget {
+    package scrollbar {
+        interface ScrollBarWidget {
+            + {abstract} void scroll(int toPosition)
+            + {abstract} int currentPosition()
+        }
+        class LinuxScrollBar implements ScrollBarWidget {
+            - int currentPosition
+            - double blurLevel
+
+            + void scroll(int toPosition)
+            + int currentPosition()
+            - void updateBlurLevel()
+        }
+        class WindowsScrollBar implements ScrollBarWidget {
+            - int currentPosition
+
+            + void scroll(int toPosition)
+            + int currentPosition()
+            - void transformRegistry()
+        }
+    }
+    package button {
+        interface ButtonWidget {
+            + {abstract} void setDisplayText(String text)
+            + {abstract} String getDisplayText()
+        }
+        class LinuxButton implements ButtonWidget {
+            - String displayText
+
+            + void setDisplayText(String text)
+            + String getDisplayText()
+        }
+
+        class WindowsButton implements ButtonWidget {
+            - String displayText
+
+            + void setDisplayText(String text)
+            + String getDisplayText()
+            - void updateWindowsRegistryStringPool()
+        }
+    }
+}
+
+class FactoryManager {
+    - {static} WidgetFactory WIDGET_FACTORY_INSTANCE
+
+    + {static} WidgetFactory widgetFactory()
+}
+class FactoryManager
+note right: Utility class used to create a <i>Singleton</i> <i>WidgetFactory</i>. \n Based on some criteria it determines which instance \n of the specific implementation of <i>WidgetFactory</i> will \n be created.
+
+FactoryManager o-- "1..0" WidgetFactory
+
+class Client
+
+Client .. FactoryManager : uses
+Client o.. ButtonWidget
+Client o.. ScrollBarWidget
+Client o.. WidgetFactory
+
+hide empty members
+@enduml

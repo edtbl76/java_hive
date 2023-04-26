@@ -1,0 +1,43 @@
+@startuml
+interface Warrior {
+    + {abstract} int level()
+    + {abstract} double damage()
+    + {abstract} Collection<String> weapons()
+    + {abstract} String name()
+}
+
+class SimpleWarrior implements Warrior {
+    + int level()
+    + double damage()
+    + Collection<String> weapons()
+    + String name()
+    + String toString()
+}
+
+abstract class WarriorDecorator implements Warrior {
+    # Warrior decoratedWarrior
+
+    # WarriorDecorator(Warrior decoratedWarrior)
+    + String toString()
+}
+
+WarriorDecorator *-- Warrior
+
+class WarriorSwordDecorator extends WarriorDecorator {
+    + WarriorSwordDecorator(Warrior decoratedWarrior)
+    + int level()
+    + double damage()
+    + Collection<String> weapons()
+    + String name()
+}
+
+class WarriorWhipDecorator extends WarriorDecorator {
+    + WarriorWhipDecorator(Warrior decoratedWarrior)
+    + int level()
+    + double damage()
+    + Collection<String> weapons()
+    + String name()
+}
+
+hide empty members
+@enduml
