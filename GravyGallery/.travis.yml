@@ -1,0 +1,29 @@
+language: java
+
+os: linux
+
+dist: xenial
+
+install: true
+
+jdk: openjdk11
+
+services:
+  - xvfb
+
+git:
+  depth: false
+
+before_script:
+  - export DISPLAY=:99.0
+
+addons:
+  chrome: stable
+  firefox: latest
+  sonarcloud:
+    organization: "edtbl76"
+    token: ${SONAR_TOKEN}
+jobs:
+  include:
+    - stage: Maven
+      script: mvn test org.sonarsource.scanner.maven:sonar-maven-plugin:sonar && bash <(curl -s https://codecov.io/bash)
