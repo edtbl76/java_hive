@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<xmi:XMI xmi:version="2.1" xmlns:uml="http://schema.omg.org/spec/UML/2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+	<xmi:Documentation exporter="Enterprise Architect" exporterVersion="6.5"/>
+	<uml:Model xmi:type="uml:Model" name="EA_Model" visibility="public">
+		<packagedElement xmi:type="uml:Package" xmi:id="EAPK_22A8796C_0CF4_4e71_A30F_26524A66E685" name="Classes" visibility="public"/>
+	</uml:Model>
+	<xmi:Extension extender="Enterprise Architect" extenderID="6.5">
+		<elements>
+			<element xmi:idref="EAPK_22A8796C_0CF4_4e71_A30F_26524A66E685" xmi:type="uml:Package" name="Classes" scope="public">
+				<model package2="EAID_22A8796C_0CF4_4e71_A30F_26524A66E685" package="EAPK_FDCD8969_31D5_442d_9876_196BDFC5C3B8" tpos="8" ea_localid="71" ea_eleType="package"/>
+				<properties documentation="This is an optional level of detail and I will draw a small number of high-level UML class diagrams if I want to explain how a particular pattern or component will be (or has been) implemented. The factors that prompt me to draw class diagrams for parts of the software system include the complexity of the software plus the size and experience of the team. Any UML diagrams that I do draw tend to be sketches rather than comprehensive models." isSpecification="false" sType="Package" nType="0" scope="public"/>
+				<project author="Bob Hruska" version="1.0" phase="1.0" created="2017-04-14 11:51:18" modified="2017-04-14 11:53:50" complexity="1" status="Proposed"/>
+				<code gentype="Java"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="The C4 model"/>
+				<packageproperties version="1.0" tpos="8"/>
+				<paths/>
+				<times created="2017-04-14 11:51:18" modified="2017-04-14 11:53:50" lastloaddate="2017-05-06 15:14:24" lastsavedate="2017-05-06 15:14:24"/>
+				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE" packageFlags="isModel=1;VICON=3;"/>
+			</element>
+		</elements>
+		<connectors/>
+		<primitivetypes>
+			<packagedElement xmi:type="uml:Package" xmi:id="EAPrimitiveTypesPackage" name="EA_PrimitiveTypes_Package" visibility="public"/>
+		</primitivetypes>
+		<profiles/>
+		<diagrams/>
+	</xmi:Extension>
+</xmi:XMI>

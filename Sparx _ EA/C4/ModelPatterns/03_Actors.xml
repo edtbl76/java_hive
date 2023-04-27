@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<xmi:XMI xmi:version="2.1" xmlns:uml="http://schema.omg.org/spec/UML/2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:C4_Elements="http://www.sparxsystems.com/profiles/C4_Elements/1.0">
+	<xmi:Documentation exporter="Enterprise Architect" exporterVersion="6.5"/>
+	<uml:Model xmi:type="uml:Model" name="EA_Model" visibility="public">
+		<packagedElement xmi:type="uml:Package" xmi:id="EAPK_98121E94_85AF_4111_A782_069F8A39FAE7" name="Actors" visibility="public">
+			<packagedElement xmi:type="uml:Class" xmi:id="EAID_B105BD67_3945_458a_BFB6_B91DEAB0617C" name="Person1" visibility="public"/>
+			<packagedElement xmi:type="uml:Dependency" xmi:id="EAID_96B5B9CF_EF70_41d2_886B_CC8206060133" visibility="public" supplier="EAID_29C12170_76FA_48f0_8119_7D154EB30D14" client="EAID_B105BD67_3945_458a_BFB6_B91DEAB0617C"/>
+		</packagedElement>
+		<C4_Elements:Person base_Class="EAID_B105BD67_3945_458a_BFB6_B91DEAB0617C"/>
+		<C4_Elements:Synchronous base_Dependency="EAID_96B5B9CF_EF70_41d2_886B_CC8206060133"/>
+	</uml:Model>
+	<xmi:Extension extender="Enterprise Architect" extenderID="6.5">
+		<elements>
+			<element xmi:idref="EAPK_98121E94_85AF_4111_A782_069F8A39FAE7" xmi:type="uml:Package" name="Actors" scope="public">
+				<model package2="EAID_98121E94_85AF_4111_A782_069F8A39FAE7" package="EAPK_FDCD8969_31D5_442d_9876_196BDFC5C3B8" tpos="3" ea_localid="64" ea_eleType="package"/>
+				<properties isSpecification="false" sType="Package" nType="0" scope="public"/>
+				<project author="Bob Hruska" version="1.0" phase="1.0" created="2017-04-30 22:15:12" modified="2017-04-30 22:15:12" complexity="1" status="Proposed"/>
+				<code gentype="Java"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="The C4 model"/>
+				<packageproperties version="1.0" tpos="3"/>
+				<paths/>
+				<times created="2017-04-30 22:15:12" modified="2017-04-30 22:15:12" lastloaddate="2017-05-06 15:14:24" lastsavedate="2017-05-06 15:14:24"/>
+				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE" packageFlags="isModel=1;VICON=3;"/>
+			</element>
+			<element xmi:idref="EAID_B105BD67_3945_458a_BFB6_B91DEAB0617C" xmi:type="uml:Class" name="Person1" scope="public">
+				<model package="EAPK_98121E94_85AF_4111_A782_069F8A39FAE7" tpos="0" ea_localid="450" ea_eleType="element"/>
+				<properties isSpecification="false" sType="Class" nType="0" scope="public" stereotype="Person" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
+				<project author="Bob Hruska" version="1.0" phase="1.0" created="2017-08-16 14:46:37" modified="2017-08-16 14:46:37" complexity="1" status="Proposed"/>
+				<code gentype="Java"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs value="$XREFPROP=$XID={02A3FE32-1ACE-4f1b-BBF1-7BFE742AD896}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Person;FQName=C4 Elements::Person;@ENDSTEREO;$DES;$CLT={B105BD67-3945-458a-BFB6-B91DEAB0617C}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;$XREFPROP=$XID={AF1C3C46-00BB-40e6-A1FC-5C9727431AB0}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=_makeComposite@ENDNAME;@TYPE=string@ENDTYPE;@VALU=false@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={B105BD67-3945-458a-BFB6-B91DEAB0617C}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+				<extendedProperties tagged="0" package_name="Actors"/>
+				<links>
+					<Dependency xmi:id="EAID_96B5B9CF_EF70_41d2_886B_CC8206060133" start="EAID_B105BD67_3945_458a_BFB6_B91DEAB0617C" end="EAID_29C12170_76FA_48f0_8119_7D154EB30D14"/>
+				</links>
+			</element>
+		</elements>
+		<connectors>
+			<connector xmi:idref="EAID_96B5B9CF_EF70_41d2_886B_CC8206060133">
+				<source xmi:idref="EAID_B105BD67_3945_458a_BFB6_B91DEAB0617C">
+					<model ea_localid="450" type="Class" name="Person1"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_29C12170_76FA_48f0_8119_7D154EB30D14">
+					<model ea_localid="444" type="Class" name="Container1"/>
+					<role visibility="Public" targetScope="instance"/>
+					<type aggregation="none" containment="Unspecified"/>
+					<constraints/>
+					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="210"/>
+				<properties ea_type="Dependency" stereotype="Synchronous" direction="Source -&gt; Destination"/>
+				<documentation/>
+				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels mb=" &#xA;«Synchronous»"/>
+				<extendedProperties conditional=" &#xA;«Synchronous»" virtualInheritance="0"/>
+				<style/>
+				<xrefs value="$XREFPROP=$XID={44EEC04F-81B8-4776-910B-8CD9ED170674}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Synchronous;FQName=C4 Elements::Synchronous;@ENDSTEREO;$DES;$CLT={96B5B9CF-EF70-41d2-886B-CC8206060133}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+				<tags/>
+			</connector>
+		</connectors>
+		<primitivetypes>
+			<packagedElement xmi:type="uml:Package" xmi:id="EAPrimitiveTypesPackage" name="EA_PrimitiveTypes_Package" visibility="public"/>
+		</primitivetypes>
+		<profiles>
+			<uml:Profile xmi:version="2.1" xmlns:uml="http://schema.omg.org/spec/UML/2.1/" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmi:id="4CEFB528-0" nsPrefix="C4_Elements" name="C4 Elements" metamodelReference="mmref01">
+				<ownedComment xmi:type="uml:Comment" xmi:id="comment01" annotatedElement="4CEFB528-0">
+					<body>C4 Elements Version:1.0</body>
+				</ownedComment>
+				<packageImport xmi:id="mmref01">
+					<importedPackage href="http://schema.omg.org/spec/UML/2.1/"/>
+				</packageImport>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="Container" name="Container">
+					<ownedAttribute xmi:type="uml:Property" xmi:id="Container-base_Class" name="base_Class" association="Class_Container">
+						<type href="http://schema.omg.org/spec/UML/2.1/Class"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="Container-Type" name="Type">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Extension" xmi:id="Class_Container" name="A_Class_Container" memberEnd="extension_Container Container-base_Class">
+					<ownedEnd xmi:id="extension_Container" name="extension_Container" type="Container" isComposite="true" lower="0" upper="1" memberEnd="extension_Container Container-base_Class"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="Asynchronous" name="Asynchronous">
+					<ownedAttribute xmi:type="uml:Property" xmi:id="Asynchronous-base_Dependency" name="base_Dependency" association="Dependency_Asynchronous">
+						<type href="http://schema.omg.org/spec/UML/2.1/Dependency"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Extension" xmi:id="Dependency_Asynchronous" name="A_Dependency_Asynchronous" memberEnd="extension_Asynchronous Asynchronous-base_Dependency">
+					<ownedEnd xmi:id="extension_Asynchronous" name="extension_Asynchronous" type="Asynchronous" isComposite="true" lower="0" upper="1" memberEnd="extension_Asynchronous Asynchronous-base_Dependency"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="Person" name="Person">
+					<ownedAttribute xmi:type="uml:Property" xmi:id="Person-base_Class" name="base_Class" association="Class_Person">
+						<type href="http://schema.omg.org/spec/UML/2.1/Class"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Extension" xmi:id="Class_Person" name="A_Class_Person" memberEnd="extension_Person Person-base_Class">
+					<ownedEnd xmi:id="extension_Person" name="extension_Person" type="Person" isComposite="true" lower="0" upper="1" memberEnd="extension_Person Person-base_Class"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="System" name="System">
+					<ownedAttribute xmi:type="uml:Property" xmi:id="System-base_Class" name="base_Class" association="Class_System">
+						<type href="http://schema.omg.org/spec/UML/2.1/Class"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="System-Type" name="Type">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Extension" xmi:id="Class_System" name="A_Class_System" memberEnd="extension_System System-base_Class">
+					<ownedEnd xmi:id="extension_System" name="extension_System" type="System" isComposite="true" lower="0" upper="1" memberEnd="extension_System System-base_Class"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="Domain Entity" name="Domain Entity">
+					<ownedAttribute xmi:type="uml:Property" xmi:id="Domain Entity-base_Class" name="base_Class" association="Class_Domain Entity">
+						<type href="http://schema.omg.org/spec/UML/2.1/Class"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="Domain Entity-Type" name="Type">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Extension" xmi:id="Class_Domain Entity" name="A_Class_Domain Entity" memberEnd="extension_Domain Entity Domain Entity-base_Class">
+					<ownedEnd xmi:id="extension_Domain Entity" name="extension_Domain Entity" type="Domain Entity" isComposite="true" lower="0" upper="1" memberEnd="extension_Domain Entity Domain Entity-base_Class"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="Alert" name="Alert">
+					<ownedAttribute xmi:type="uml:Property" xmi:id="Alert-base_Dependency" name="base_Dependency" association="Dependency_Alert">
+						<type href="http://schema.omg.org/spec/UML/2.1/Dependency"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Extension" xmi:id="Dependency_Alert" name="A_Dependency_Alert" memberEnd="extension_Alert Alert-base_Dependency">
+					<ownedEnd xmi:id="extension_Alert" name="extension_Alert" type="Alert" isComposite="true" lower="0" upper="1" memberEnd="extension_Alert Alert-base_Dependency"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="Component" name="Component">
+					<ownedAttribute xmi:type="uml:Property" xmi:id="Component-base_Component" name="base_Component" association="Component_Component">
+						<type href="http://schema.omg.org/spec/UML/2.1/Component"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Extension" xmi:id="Component_Component" name="A_Component_Component" memberEnd="extension_Component Component-base_Component">
+					<ownedEnd xmi:id="extension_Component" name="extension_Component" type="Component" isComposite="true" lower="0" upper="1" memberEnd="extension_Component Component-base_Component"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="Synchronous" name="Synchronous">
+					<ownedAttribute xmi:type="uml:Property" xmi:id="Synchronous-base_Dependency" name="base_Dependency" association="Dependency_Synchronous">
+						<type href="http://schema.omg.org/spec/UML/2.1/Dependency"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Extension" xmi:id="Dependency_Synchronous" name="A_Dependency_Synchronous" memberEnd="extension_Synchronous Synchronous-base_Dependency">
+					<ownedEnd xmi:id="extension_Synchronous" name="extension_Synchronous" type="Synchronous" isComposite="true" lower="0" upper="1" memberEnd="extension_Synchronous Synchronous-base_Dependency"/>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="System under design" name="System under design">
+					<ownedAttribute xmi:type="uml:Property" xmi:id="System under design-base_Class" name="base_Class" association="Class_System under design">
+						<type href="http://schema.omg.org/spec/UML/2.1/Class"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="System under design-Type" name="Type">
+						<type href="http://schema.omg.org/spec/UML/2.1/String"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Extension" xmi:id="Class_System under design" name="A_Class_System under design" memberEnd="extension_System under design System under design-base_Class">
+					<ownedEnd xmi:id="extension_System under design" name="extension_System under design" type="System under design" isComposite="true" lower="0" upper="1" memberEnd="extension_System under design System under design-base_Class"/>
+				</packagedElement>
+			</uml:Profile>
+		</profiles>
+		<diagrams>
+			<diagram xmi:id="EAID_0B816359_2717_4c21_A5B8_11DC19CF6C93">
+				<model package="EAPK_98121E94_85AF_4111_A782_069F8A39FAE7" localID="69" owner="EAPK_98121E94_85AF_4111_A782_069F8A39FAE7" tpos="0"/>
+				<properties name="Actors" type="Custom"/>
+				<project author="Bob Hruska" version="1.0" created="2017-05-06 17:04:52" modified="2017-08-16 14:48:21"/>
+				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=827;DocSize.cy=1169;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=1;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;ShowNotes=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<style2 value="ExcludeRTF=1;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;ProfileData=;MDGDgm=C4 Extended Diagrams::Actors&amp;TraceabilityDiagram;STBLDgm=;ShowNotes=1;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;SaveTag=F121C6AD;"/>
+				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;cls=0;SwimlaneFont=lfh:-16,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<extendedProperties/>
+				<elements>
+					<element geometry="Left=259;Top=169;Right=369;Bottom=249;" subject="EAID_B105BD67_3945_458a_BFB6_B91DEAB0617C" seqno="1" style="DUID=1678008F;HideIcon=0;"/>
+				</elements>
+			</diagram>
+		</diagrams>
+	</xmi:Extension>
+</xmi:XMI>

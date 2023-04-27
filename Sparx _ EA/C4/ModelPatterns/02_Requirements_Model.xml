@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<xmi:XMI xmi:version="2.1" xmlns:uml="http://schema.omg.org/spec/UML/2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+	<xmi:Documentation exporter="Enterprise Architect" exporterVersion="6.5"/>
+	<uml:Model xmi:type="uml:Model" name="EA_Model" visibility="public">
+		<packagedElement xmi:type="uml:Package" xmi:id="EAPK_5A8D5C14_AD5A_453f_B1EA_A2A7EC735139" name="Requirements Model" visibility="public">
+			<ownedComment xmi:type="uml:Comment" xmi:id="EAID_D661D587_1416_4bef_A51A_0B4430807B8C" body="The Functional Requirements package details behavioral requirements that specify how a proposed system will process and handle information. It details the features and rules that must be present to fully implement the functionality desired.">
+				<annotatedElement xmi:idref="EAPK_64FEB7DE_75E7_4e2e_8B97_52EC5E5B90DF"/>
+			</ownedComment>
+			<ownedComment xmi:type="uml:Comment" xmi:id="EAID_C7CCE4B4_36DD_498b_98FF_9D13A734781C" body="The Non-Functional Requirements package specifies the various operational parameters that define the environment in which the system will exist. These are criteria which define performance levels, scalability, security requirements, backup, disaster recovery and other operational requirements.">
+				<annotatedElement xmi:idref="EAPK_EDEF831C_70AE_4f3d_AA8A_3907860402CA"/>
+			</ownedComment>
+			<ownedComment xmi:type="uml:Comment" xmi:id="EAID_1352F5B5_907E_4072_8E26_A7867F20C140" body="The Requirements model is a structured catalogue of end-user requirements. These are represented as either Requirement or Feature elements.&#xA;&#xA;The model is divided into two sub-catalogues:&#xA;&#xA;1. The Functional requirements package contains requirements and features that represent functional behavior and features that the system under development must support.&#xA;&#xA;2. The Non-functional requirements package contains constraints and performance levels the system must meet. For example response times, transactions per second, security strength."/>
+			<packagedElement xmi:type="uml:Class" xmi:id="EAID_04BFEA37_E266_402a_85BD_016012E67F0A" name="$help://trace_requirements.htm" visibility="public"/>
+			<packagedElement xmi:type="uml:Class" xmi:id="EAID_061607B6_3A64_4a64_ADCF_249C6845BE63" name="$help://elementrelationshipmatrix.htm" visibility="public"/>
+			<packagedElement xmi:type="uml:Class" xmi:id="EAID_670F2C15_3D69_4979_B73A_4D5694AC364C" name="$help://requirements_model_pattern.htm" visibility="public"/>
+			<packagedElement xmi:type="uml:Package" xmi:id="EAPK_64FEB7DE_75E7_4e2e_8B97_52EC5E5B90DF" name="Functional Requirements" visibility="public">
+				<ownedComment xmi:type="uml:Comment" xmi:id="EAID_1B226C5F_EE01_44ca_A34F_B06B724C75E7" body="Functional Requirements describe the features, behavior, business rules and general functionality that the proposed system must support.  "/>
+			</packagedElement>
+			<packagedElement xmi:type="uml:Package" xmi:id="EAPK_EDEF831C_70AE_4f3d_AA8A_3907860402CA" name="Non-Functional Requirements" visibility="public"/>
+		</packagedElement>
+	</uml:Model>
+	<xmi:Extension extender="Enterprise Architect" extenderID="6.5">
+		<elements>
+			<element xmi:idref="EAPK_5A8D5C14_AD5A_453f_B1EA_A2A7EC735139" xmi:type="uml:Package" name="Requirements Model" scope="public">
+				<model package2="EAID_5A8D5C14_AD5A_453f_B1EA_A2A7EC735139" package="EAPK_FDCD8969_31D5_442d_9876_196BDFC5C3B8" tpos="2" ea_localid="50" ea_eleType="package"/>
+				<properties isSpecification="false" sType="Package" nType="0" scope="public"/>
+				<project author="Bob Hruska" phase="1.0" created="2017-05-06 17:57:16" modified="2017-05-16 21:31:33" complexity="1" status="Proposed"/>
+				<code/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="The C4 model"/>
+				<packageproperties xmiver="Enterprise Architect XMI/UML 1.3" tpos="2"/>
+				<paths/>
+				<times created="2017-05-06 17:57:16" modified="2017-05-16 21:31:33" lastloaddate="2005-11-19 09:02:21" lastsavedate="2005-11-19 09:26:01"/>
+				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE" packageFlags="isModel=1;"/>
+			</element>
+			<element xmi:idref="EAID_04BFEA37_E266_402a_85BD_016012E67F0A" xmi:type="uml:Text" name="$help://trace_requirements.htm" scope="public">
+				<model package="EAPK_5A8D5C14_AD5A_453f_B1EA_A2A7EC735139" tpos="0" ea_localid="347" ea_eleType="element" name="$help://trace_requirements.htm"/>
+				<properties isSpecification="false" sType="Text" nType="19" alias="Tracing element dependencies" scope="public"/>
+				<project author="Bob Hruska" version="1.0" phase="1.0" created="2017-05-06 17:57:16" modified="2017-05-16 21:26:23" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Requirements Model"/>
+			</element>
+			<element xmi:idref="EAID_061607B6_3A64_4a64_ADCF_249C6845BE63" xmi:type="uml:Text" name="$help://elementrelationshipmatrix.htm" scope="public">
+				<model package="EAPK_5A8D5C14_AD5A_453f_B1EA_A2A7EC735139" tpos="0" ea_localid="348" ea_eleType="element" name="$help://elementrelationshipmatrix.htm"/>
+				<properties isSpecification="false" sType="Text" nType="19" alias="Using the Relationship Matrix" scope="public"/>
+				<project author="Bob Hruska" version="1.0" phase="1.0" created="2017-05-06 17:57:16" modified="2017-05-16 21:26:23" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Requirements Model"/>
+			</element>
+			<element xmi:idref="EAID_1352F5B5_907E_4072_8E26_A7867F20C140" xmi:type="uml:Note" name="Note" scope="public">
+				<model package="EAPK_5A8D5C14_AD5A_453f_B1EA_A2A7EC735139" tpos="0" ea_localid="346" ea_eleType="element" name="Note"/>
+				<properties documentation="The Requirements model is a structured catalogue of end-user requirements. These are represented as either Requirement or Feature elements.&#xA;&#xA;The model is divided into two sub-catalogues:&#xA;&#xA;1. The Functional requirements package contains requirements and features that represent functional behavior and features that the system under development must support.&#xA;&#xA;2. The Non-functional requirements package contains constraints and performance levels the system must meet. For example response times, transactions per second, security strength." isSpecification="false" sType="Note" nType="0" scope="public"/>
+				<project author="Bob Hruska" version="1.0" phase="1.0" created="2017-05-06 17:57:16" modified="2017-05-16 21:26:23" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Requirements Model"/>
+			</element>
+			<element xmi:idref="EAID_670F2C15_3D69_4979_B73A_4D5694AC364C" xmi:type="uml:Text" name="$help://requirements_model_pattern.htm" scope="public">
+				<model package="EAPK_5A8D5C14_AD5A_453f_B1EA_A2A7EC735139" tpos="0" ea_localid="349" ea_eleType="element" name="$help://requirements_model_pattern.htm"/>
+				<properties isSpecification="false" sType="Text" nType="19" alias="Read about Requirements" scope="public"/>
+				<project author="Bob Hruska" version="1.0" phase="1.0" created="2017-05-06 17:57:16" modified="2017-05-16 21:26:23" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Requirements Model"/>
+			</element>
+			<element xmi:idref="EAID_C7CCE4B4_36DD_498b_98FF_9D13A734781C" xmi:type="uml:Note" scope="public">
+				<model package="EAPK_5A8D5C14_AD5A_453f_B1EA_A2A7EC735139" tpos="0" ea_localid="345" ea_eleType="element"/>
+				<properties documentation="The Non-Functional Requirements package specifies the various operational parameters that define the environment in which the system will exist. These are criteria which define performance levels, scalability, security requirements, backup, disaster recovery and other operational requirements." isSpecification="false" sType="Note" nType="0" scope="public"/>
+				<project author="Bob Hruska" version="1.0" phase="1.0" created="2017-05-06 17:57:16" modified="2017-05-16 21:26:23" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Requirements Model" eventflags="LNK=b856;"/>
+				<links>
+					<NoteLink xmi:id="EAID_22C00D43_C5BA_4e79_B7A6_8A5CE74C353B" start="EAID_EDEF831C_70AE_4f3d_AA8A_3907860402CA" end="EAID_C7CCE4B4_36DD_498b_98FF_9D13A734781C"/>
+				</links>
+			</element>
+			<element xmi:idref="EAID_D661D587_1416_4bef_A51A_0B4430807B8C" xmi:type="uml:Note" scope="public">
+				<model package="EAPK_5A8D5C14_AD5A_453f_B1EA_A2A7EC735139" tpos="0" ea_localid="344" ea_eleType="element"/>
+				<properties documentation="The Functional Requirements package details behavioral requirements that specify how a proposed system will process and handle information. It details the features and rules that must be present to fully implement the functionality desired." isSpecification="false" sType="Note" nType="0" scope="public"/>
+				<project author="Bob Hruska" version="1.0" phase="1.0" created="2017-05-06 17:57:16" modified="2017-05-16 21:26:23" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Requirements Model" eventflags="LNK=ab31;"/>
+				<links>
+					<NoteLink xmi:id="EAID_BFCA42D1_89E6_427a_9140_EB692860F00F" start="EAID_64FEB7DE_75E7_4e2e_8B97_52EC5E5B90DF" end="EAID_D661D587_1416_4bef_A51A_0B4430807B8C"/>
+				</links>
+			</element>
+			<element xmi:idref="EAPK_64FEB7DE_75E7_4e2e_8B97_52EC5E5B90DF" xmi:type="uml:Package" name="Functional Requirements" scope="public">
+				<model package2="EAID_64FEB7DE_75E7_4e2e_8B97_52EC5E5B90DF" package="EAPK_5A8D5C14_AD5A_453f_B1EA_A2A7EC735139" tpos="0" ea_localid="51" ea_eleType="package"/>
+				<properties isSpecification="false" sType="Package" nType="0" scope="public"/>
+				<project author="Bob Hruska" version="1.0" phase="1.0" created="2017-05-06 17:57:17" modified="2017-05-15 16:43:19" complexity="1" status="Proposed"/>
+				<code gentype="Java"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;" object_style="MDoc=1;"/>
+				<modelDocument xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64" type="ModelDocument" docid="{64FEB7DE-75E7-4e2e-8B97-52EC5E5B90DF}" name="Functional Requirements" date="15-May-2017 4:43:19 PM" notes="" style="" elementtype="ModelDocument" strcontent="" author="" version="" isactive="2785" sequence="0">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</modelDocument>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Requirements Model" eventflags="LNK=ab31;"/>
+				<packageproperties version="1.0" tpos="0"/>
+				<paths/>
+				<times created="2017-05-06 17:57:17" modified="2017-05-15 16:43:19" lastloaddate="2005-11-19 09:02:21" lastsavedate="2005-11-19 09:02:21"/>
+				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+			</element>
+			<element xmi:idref="EAID_1B226C5F_EE01_44ca_A34F_B06B724C75E7" xmi:type="uml:Note" name="Note" scope="public">
+				<model package="EAPK_64FEB7DE_75E7_4e2e_8B97_52EC5E5B90DF" tpos="0" ea_localid="351" ea_eleType="element" name="Note"/>
+				<properties documentation="Functional Requirements describe the features, behavior, business rules and general functionality that the proposed system must support.  " isSpecification="false" sType="Note" nType="0" scope="public"/>
+				<project author="Bob Hruska" version="1.0" phase="1.0" created="2017-05-06 17:57:17" modified="2017-05-16 21:26:23" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Functional Requirements"/>
+			</element>
+			<element xmi:idref="EAPK_EDEF831C_70AE_4f3d_AA8A_3907860402CA" xmi:type="uml:Package" name="Non-Functional Requirements" scope="public">
+				<model package2="EAID_EDEF831C_70AE_4f3d_AA8A_3907860402CA" package="EAPK_5A8D5C14_AD5A_453f_B1EA_A2A7EC735139" tpos="0" ea_localid="52" ea_eleType="package"/>
+				<properties isSpecification="false" sType="Package" nType="0" scope="public"/>
+				<project author="Bob Hruska" version="1.0" phase="1.0" created="2017-05-06 17:57:17" modified="2017-05-06 17:57:17" complexity="1" status="Proposed"/>
+				<code gentype="Java"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Requirements Model" eventflags="LNK=b856;"/>
+				<packageproperties version="1.0" tpos="0"/>
+				<paths/>
+				<times created="2017-05-06 17:57:18" modified="2017-05-06 17:57:17" lastloaddate="2005-11-19 09:02:21" lastsavedate="2005-11-19 09:02:21"/>
+				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+			</element>
+		</elements>
+		<connectors>
+			<connector xmi:idref="EAID_22C00D43_C5BA_4e79_B7A6_8A5CE74C353B">
+				<source xmi:idref="EAID_EDEF831C_70AE_4f3d_AA8A_3907860402CA">
+					<model ea_localid="359" type="Package" name="Non-Functional Requirements"/>
+					<role visibility="Public"/>
+					<type aggregation="none"/>
+					<constraints/>
+					<modifiers isOrdered="false" isNavigable="false"/>
+					<style/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_C7CCE4B4_36DD_498b_98FF_9D13A734781C">
+					<model ea_localid="345" type="Note"/>
+					<role visibility="Public"/>
+					<type aggregation="none"/>
+					<constraints/>
+					<modifiers isOrdered="false" isNavigable="false"/>
+					<style/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="131"/>
+				<properties ea_type="NoteLink" direction="Source -&gt; Destination"/>
+				<modifiers isRoot="false" isLeaf="false"/>
+				<documentation/>
+				<appearance linemode="3" linecolor="0" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties virtualInheritance="0"/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+			<connector xmi:idref="EAID_BFCA42D1_89E6_427a_9140_EB692860F00F">
+				<source xmi:idref="EAID_64FEB7DE_75E7_4e2e_8B97_52EC5E5B90DF">
+					<model ea_localid="350" type="Package" name="Functional Requirements"/>
+					<role visibility="Public"/>
+					<type aggregation="none"/>
+					<constraints/>
+					<modifiers isOrdered="false" isNavigable="false"/>
+					<style/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</source>
+				<target xmi:idref="EAID_D661D587_1416_4bef_A51A_0B4430807B8C">
+					<model ea_localid="344" type="Note"/>
+					<role visibility="Public"/>
+					<type aggregation="none"/>
+					<constraints/>
+					<modifiers isOrdered="false" isNavigable="false"/>
+					<style/>
+					<documentation/>
+					<xrefs/>
+					<tags/>
+				</target>
+				<model ea_localid="130"/>
+				<properties ea_type="NoteLink" direction="Source -&gt; Destination"/>
+				<modifiers isRoot="false" isLeaf="false"/>
+				<documentation/>
+				<appearance linemode="3" linecolor="0" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
+				<labels/>
+				<extendedProperties virtualInheritance="0"/>
+				<style/>
+				<xrefs/>
+				<tags/>
+			</connector>
+		</connectors>
+		<primitivetypes>
+			<packagedElement xmi:type="uml:Package" xmi:id="EAPrimitiveTypesPackage" name="EA_PrimitiveTypes_Package" visibility="public"/>
+		</primitivetypes>
+		<profiles/>
+		<diagrams>
+			<diagram xmi:id="EAID_B1467DF5_D878_4655_8C8F_D4B0A5CBF077">
+				<model package="EAPK_5A8D5C14_AD5A_453f_B1EA_A2A7EC735139" localID="55" owner="EAPK_5A8D5C14_AD5A_453f_B1EA_A2A7EC735139" tpos="0"/>
+				<properties name="Requirements Model" type="Custom"/>
+				<project author="Bob Hruska" version="1.0" created="2017-05-06 17:57:19" modified="2017-08-16 14:27:46"/>
+				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=0;HighlightForeign=0;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=827;DocSize.cy=1169;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.0;ExplicitNavigability=0;ShowShape=1;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<style2 value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.0;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;SaveTag=F46701F3;"/>
+				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;cls=0;SwimlaneFont=lfh:-16,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<extendedProperties/>
+				<elements>
+					<element geometry="Left=622;Top=187;Right=777;Bottom=362;" subject="EAID_C7CCE4B4_36DD_498b_98FF_9D13A734781C" seqno="1" style="DUID=BE691A22;"/>
+					<element geometry="Left=618;Top=27;Right=774;Bottom=162;" subject="EAID_D661D587_1416_4bef_A51A_0B4430807B8C" seqno="2" style="DUID=BBDCF765;"/>
+					<element geometry="Left=37;Top=326;Right=224;Bottom=346;" subject="EAID_061607B6_3A64_4a64_ADCF_249C6845BE63" seqno="3" style="HideIcon=0;DUID=6A92A6A5;"/>
+					<element geometry="Left=37;Top=299;Right=224;Bottom=318;" subject="EAID_04BFEA37_E266_402a_85BD_016012E67F0A" seqno="4" style="HideIcon=0;DUID=96298D67;"/>
+					<element geometry="Left=380;Top=205;Right=591;Bottom=411;" subject="EAID_EDEF831C_70AE_4f3d_AA8A_3907860402CA" seqno="5" style="DUID=2F40EBC6;"/>
+					<element geometry="Left=376;Top=41;Right=558;Bottom=140;" subject="EAID_64FEB7DE_75E7_4e2e_8B97_52EC5E5B90DF" seqno="6" style="DUID=E7D38B03;"/>
+					<element geometry="Left=38;Top=273;Right=225;Bottom=293;" subject="EAID_670F2C15_3D69_4979_B73A_4D5694AC364C" seqno="7" style="HideIcon=0;NSL=1;DUID=A4D16F22;"/>
+					<element geometry="Left=19;Top=37;Right=332;Bottom=258;" subject="EAID_1352F5B5_907E_4072_8E26_A7867F20C140" seqno="8" style="BFol=2631720;LCol=8355711;BCol=14745599;LWth=1;DUID=02FB1730;"/>
+					<element geometry="EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_BFCA42D1_89E6_427a_9140_EB692860F00F" style="Mode=3;EOID=BBDCF765;SOID=E7D38B03;Color=-1;LWidth=0;Hidden=0;"/>
+					<element geometry="EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_22C00D43_C5BA_4e79_B7A6_8A5CE74C353B" style="Mode=3;EOID=BE691A22;SOID=2F40EBC6;Color=-1;LWidth=0;Hidden=0;"/>
+				</elements>
+			</diagram>
+			<diagram xmi:id="EAID_C80C2DDD_1805_480b_ADC4_21CB513BBAB8">
+				<model package="EAPK_64FEB7DE_75E7_4e2e_8B97_52EC5E5B90DF" localID="56" owner="EAPK_64FEB7DE_75E7_4e2e_8B97_52EC5E5B90DF" tpos="0"/>
+				<properties name="Functional Requirements" type="Custom"/>
+				<project author="Bob Hruska" version="1.0" created="2017-05-15 14:35:50" modified="2017-05-15 14:47:01"/>
+				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=827;DocSize.cy=1169;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<style2 value="SaveTag=1149ADFE;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;ProfileData=;MDGDgm=Extended::Requirements;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;cls=0;SwimlaneFont=lfh:-16,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<extendedProperties/>
+				<elements>
+					<element geometry="Left=43;Top=57;Right=265;Bottom=143;" subject="EAID_1B226C5F_EE01_44ca_A34F_B06B724C75E7" seqno="1" style="LCol=8355711;BCol=14745599;BFol=2631720;LWth=1;DUID=45BCA0CC;NSL=0;"/>
+				</elements>
+			</diagram>
+			<diagram xmi:id="EAID_3B7D3171_4274_4d63_A3B1_97FDEA1EB52D">
+				<model package="EAPK_EDEF831C_70AE_4f3d_AA8A_3907860402CA" localID="57" owner="EAPK_EDEF831C_70AE_4f3d_AA8A_3907860402CA" tpos="0"/>
+				<properties name="Non-Functional Requirements" type="Custom"/>
+				<project author="Bob Hruska" version="1.0" created="2017-05-15 16:43:34" modified="2017-08-16 14:27:46"/>
+				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=827;DocSize.cy=1169;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<style2 value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;ProfileData=;MDGDgm=Extended::Requirements;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;SaveTag=64246F63;"/>
+				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;cls=0;SwimlaneFont=lfh:-16,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<extendedProperties/>
+			</diagram>
+		</diagrams>
+	</xmi:Extension>
+</xmi:XMI>

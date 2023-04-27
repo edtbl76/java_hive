@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<xmi:XMI xmi:version="2.1" xmlns:uml="http://schema.omg.org/spec/UML/2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+	<xmi:Documentation exporter="Enterprise Architect" exporterVersion="6.5"/>
+	<uml:Model xmi:type="uml:Model" name="EA_Model" visibility="public">
+		<packagedElement xmi:type="uml:Package" xmi:id="EAPK_1770FE3B_5847_49a2_A985_3B077234BBF4" name="Containers" visibility="public">
+			<packagedElement xmi:type="uml:Class" xmi:id="EAID_B7FB05D4_08F5_4466_8D53_55173F4C56D8" visibility="public"/>
+			<packagedElement xmi:type="uml:Package" xmi:id="EAPK_FCE99C4E_C959_416d_A176_B877D1F77CAC" name="Scenarios" visibility="public">
+				<packagedElement xmi:type="uml:Collaboration" xmi:id="EAID_CB000000_C4E_C959_416d_A176_B877D1F77CA" name="EA_Collaboration1" visibility="public">
+					<ownedBehavior xmi:type="uml:Interaction" xmi:id="EAID_IN000000_C4E_C959_416d_A176_B877D1F77CA" name="EA_Interaction1" visibility="public"/>
+				</packagedElement>
+			</packagedElement>
+		</packagedElement>
+	</uml:Model>
+	<xmi:Extension extender="Enterprise Architect" extenderID="6.5">
+		<elements>
+			<element xmi:idref="EAPK_1770FE3B_5847_49a2_A985_3B077234BBF4" xmi:type="uml:Package" name="Containers" scope="public">
+				<model package2="EAID_1770FE3B_5847_49a2_A985_3B077234BBF4" package="EAPK_FDCD8969_31D5_442d_9876_196BDFC5C3B8" tpos="6" ea_localid="67" ea_eleType="package"/>
+				<properties documentation="A container diagram shows the high-level technology choices, how responsibilities are distributed across them and how the containers communicate." isSpecification="false" sType="Package" nType="0" scope="public"/>
+				<project author="Bob Hruska" version="1.0" phase="1.0" created="2017-04-14 11:50:39" modified="2017-05-15 17:57:48" complexity="1" status="Proposed"/>
+				<code gentype="Java"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="The C4 model"/>
+				<packageproperties version="1.0" tpos="6"/>
+				<paths/>
+				<times created="2017-04-14 11:50:39" modified="2017-05-15 17:57:48" lastloaddate="2017-05-06 15:14:24" lastsavedate="2017-05-06 15:14:24"/>
+				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE" packageFlags="isModel=1;VICON=5;"/>
+			</element>
+			<element xmi:idref="EAID_B7FB05D4_08F5_4466_8D53_55173F4C56D8" xmi:type="uml:Boundary" scope="public">
+				<model package="EAPK_1770FE3B_5847_49a2_A985_3B077234BBF4" tpos="0" ea_localid="416" ea_eleType="element"/>
+				<properties isSpecification="false" sType="Boundary" nType="0" scope="public"/>
+				<project author="Bob Hruska" version="1.0" phase="1.0" created="2017-04-30 22:13:11" modified="2017-05-16 21:26:24" complexity="1" status="Proposed"/>
+				<code gentype="&lt;none&gt;"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=6;" styleex="Path=315:-113@982:-113@982:-648@315:-648;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Containers"/>
+			</element>
+			<element xmi:idref="EAPK_FCE99C4E_C959_416d_A176_B877D1F77CAC" xmi:type="uml:Package" name="Scenarios" scope="public">
+				<model package2="EAID_FCE99C4E_C959_416d_A176_B877D1F77CAC" package="EAPK_1770FE3B_5847_49a2_A985_3B077234BBF4" tpos="0" ea_localid="68" ea_eleType="package"/>
+				<properties isSpecification="false" sType="Package" nType="0" scope="public"/>
+				<project author="Bob Hruska" version="1.0" phase="1.0" created="2017-05-15 18:01:21" modified="2017-05-15 18:01:21" complexity="1" status="Proposed"/>
+				<code gentype="Java"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Containers"/>
+				<packageproperties version="1.0" tpos="0"/>
+				<paths/>
+				<times created="2017-05-15 18:01:21" modified="2017-05-15 18:01:21" lastloaddate="2017-05-16 21:26:24" lastsavedate="2017-05-16 21:26:24"/>
+				<flags iscontrolled="FALSE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE"/>
+			</element>
+		</elements>
+		<connectors/>
+		<primitivetypes>
+			<packagedElement xmi:type="uml:Package" xmi:id="EAPrimitiveTypesPackage" name="EA_PrimitiveTypes_Package" visibility="public"/>
+		</primitivetypes>
+		<profiles/>
+		<diagrams>
+			<diagram xmi:id="EAID_659FDD24_9AA6_4619_8FE4_BC94A8E58EFD">
+				<model package="EAPK_FCE99C4E_C959_416d_A176_B877D1F77CAC" localID="78" owner="EAPK_FCE99C4E_C959_416d_A176_B877D1F77CAC" tpos="0"/>
+				<properties name="Scenarios" type="Sequence"/>
+				<project author="Bob Hruska" version="1.0" created="2017-05-16 21:28:34" modified="2017-05-16 21:28:34"/>
+				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=827;DocSize.cy=1169;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<style2/>
+				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;cls=0;"/>
+				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<extendedProperties/>
+			</diagram>
+		</diagrams>
+	</xmi:Extension>
+</xmi:XMI>
