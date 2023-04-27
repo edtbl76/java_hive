@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>RecursionWithNumbers.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">playingwithjava</a> &gt; <a href="index.source.html" class="el_package">recursion</a> &gt; <span class="el_source">RecursionWithNumbers.java</span></div><h1>RecursionWithNumbers.java</h1><pre class="source lang-java linenums">package recursion;
+
+public class RecursionWithNumbers {
+
+    private RecursionWithNumbers() {}
+
+    public static int sumAll(int number) {
+
+        // base
+<span class="fc bfc" id="L10" title="All 2 branches covered.">        if (number == 0) {</span>
+<span class="fc" id="L11">            return 0;</span>
+        }
+
+<span class="fc" id="L14">        return number + sumAll(number - 1);</span>
+    }
+
+    public static int fibonacci(int number) {
+
+<span class="fc bfc" id="L19" title="All 2 branches covered.">        if (number &lt;= 1) {</span>
+<span class="fc" id="L20">            return number;</span>
+        }
+
+<span class="fc" id="L23">        return fibonacci(number - 1) + fibonacci(number - 2);</span>
+    }
+
+    public static int greatestCommonDivisor(int number1, int number2) {
+
+        // base case
+<span class="fc bfc" id="L29" title="All 2 branches covered.">        if (number1 == number2) {</span>
+<span class="fc" id="L30">            return number1;</span>
+        }
+
+        // Recursive case
+<span class="fc bfc" id="L34" title="All 2 branches covered.">        if (number1 &gt; number2) {</span>
+<span class="fc" id="L35">            return greatestCommonDivisor(number1 - number2, number2);</span>
+        } else {
+<span class="fc" id="L37">            return greatestCommonDivisor(number1, number2 - number1);</span>
+        }
+    }
+
+    @SuppressWarnings(&quot;java:S125&quot;)
+    public static boolean checkPowerOf(int base, int exponent) {
+
+            // base case
+<span class="fc bfc" id="L45" title="All 2 branches covered.">            if (base &lt;= 1) {</span>
+<span class="fc bfc" id="L46" title="All 2 branches covered.">                return base == 1;</span>
+            }
+                /*
+                    simplified if statement
+                        - as long as the first part is true, we keep recursing.
+                        - after the &amp;&amp;. we recurse until it is either false, or we get to 1
+
+                     NOTE:
+                     - This makes 100% code coverage impossible.
+                     - this is a short-circuiting logic operator.
+                     - There are 4 possible test branches:
+                        True True - can be evaluated
+                        True False - can be evaluated
+                        False x    - the right side of the equation is
+                        never evaluated, nor does it matter .
+
+                    Alternative Code:
+                    if (base % exponent == 0) {
+                        checkPowerOf(base / exponent, exponent)
+                    } else {
+                        return false
+                    }
+
+                 */
+<span class="fc bfc" id="L70" title="All 2 branches covered.">                boolean condition = base % exponent == 0;</span>
+<span class="fc" id="L71">                boolean recursion = checkPowerOf(base / exponent, exponent);</span>
+<span class="pc bpc" id="L72" title="1 of 4 branches missed.">            return condition &amp;&amp; recursion;</span>
+
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>

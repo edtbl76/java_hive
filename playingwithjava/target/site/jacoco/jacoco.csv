@@ -1,0 +1,52 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+playingwithjava,fundamentals,Calculator,0,33,0,0,0,8,0,5,0,5
+playingwithjava,oop.inheritance,Truck,0,29,0,0,0,11,0,4,0,4
+playingwithjava,oop.inheritance,SUV,0,14,0,0,0,5,0,2,0,2
+playingwithjava,oop.inheritance,TundraEV,0,12,0,0,0,4,0,2,0,2
+playingwithjava,oop.inheritance,Vehicle,0,43,0,0,0,14,0,4,0,4
+playingwithjava,oop.abstraction.interfaces,Bird,0,10,0,0,0,3,0,2,0,2
+playingwithjava,oop.abstraction.interfaces,Car,0,7,0,0,0,3,0,2,0,2
+playingwithjava,oop.abstraction.interfaces,Parrot,0,7,0,0,0,3,0,2,0,2
+playingwithjava,oop.abstraction.interfaces,Vehicle,0,8,0,0,0,4,0,2,0,2
+playingwithjava,oop.abstraction.interfaces,Penguin,0,7,0,0,0,3,0,2,0,2
+playingwithjava,oop.abstraction.abstractclasses,Dog,0,7,0,0,0,3,0,2,0,2
+playingwithjava,oop.abstraction.abstractclasses,Sheep,0,7,0,0,0,3,0,2,0,2
+playingwithjava,oop.abstraction.abstractclasses,Cat,0,7,0,0,0,3,0,2,0,2
+playingwithjava,oop.abstraction.abstractclasses,Animal,0,10,0,0,0,3,0,2,0,2
+playingwithjava,oop.abstraction.abstractclasses,ComicBook,0,16,0,0,0,4,0,2,0,2
+playingwithjava,multithreading.threads.executors.timervsexecutor,AnotherBadTimer.new TimerTask() {...},0,3,0,0,0,1,0,1,0,1
+playingwithjava,multithreading.threads.executors.timervsexecutor,AnotherBadTimer.new TimerTask() {...},0,3,0,0,0,1,0,1,0,1
+playingwithjava,multithreading.threads.executors.timervsexecutor,BadTimer.new TimerTask() {...},0,3,0,0,0,1,0,1,0,1
+playingwithjava,multithreading.threads.executors.timervsexecutor,BadTimer.new TimerTask() {...},0,3,0,0,0,1,0,1,0,1
+playingwithjava,utils,Utils,0,92,0,10,0,21,0,11,0,6
+playingwithjava,oop.composition,Tires,0,6,0,0,0,3,0,1,0,1
+playingwithjava,oop.composition,Engine,0,6,0,0,0,3,0,1,0,1
+playingwithjava,oop.composition,Doors,0,6,0,0,0,3,0,1,0,1
+playingwithjava,oop.composition,Car,0,57,0,0,0,19,0,7,0,7
+playingwithjava,iteration,FactorialIteration,0,15,0,2,0,4,0,2,0,1
+playingwithjava,recursion,FactorialRecursion,0,12,0,2,0,3,0,2,0,1
+playingwithjava,recursion,RecursionWithNumbers,0,78,1,17,0,16,1,12,0,4
+playingwithjava,recursion,RecursionWithStrings,0,154,0,16,0,32,0,16,0,8
+playingwithjava,recursion,DirectRecursion,0,15,0,2,0,3,0,2,0,1
+playingwithjava,recursion,RecursionWithArrays,0,72,0,8,0,14,0,7,0,3
+playingwithjava,oop.polymorphism,StaticPolymorphism,0,17,0,0,0,3,0,3,0,3
+playingwithjava,oop.polymorphism,Shape,0,5,0,0,0,2,0,2,0,2
+playingwithjava,oop.polymorphism,SubWidget,0,12,0,0,0,4,0,2,0,2
+playingwithjava,oop.polymorphism,Widget,0,5,0,0,0,2,0,2,0,2
+playingwithjava,oop.polymorphism,Circle,0,7,0,0,0,1,0,1,0,1
+playingwithjava,oop.polymorphism,Rectangle,0,6,0,0,0,1,0,1,0,1
+playingwithjava,oop.encapsulation,Rectangle,0,38,0,0,0,15,0,7,0,7
+playingwithjava,multithreading.threads.callables,DemoSumTask2.new Callable() {...},0,6,0,0,0,1,0,1,0,1
+playingwithjava,structures,BinarySearchTree,0,195,0,28,0,48,0,26,0,12
+playingwithjava,structures,EMLinkedList,0,174,0,30,0,55,0,26,0,11
+playingwithjava,structures,LLNode,0,9,0,0,0,4,0,1,0,1
+playingwithjava,structures,BSTNode,0,12,0,0,0,5,0,1,0,1
+playingwithjava,sort,ArraySorts,0,34,0,6,0,7,0,4,0,1
+playingwithjava,iterativetorecursive,IterativeCountDigits,0,12,0,2,0,5,0,2,0,1
+playingwithjava,iterativetorecursive,RecursiveCountDigits,0,12,0,2,0,3,0,2,0,1
+playingwithjava,oop.abstraction.interfaces.solvingdiamondproblem,InterfaceTwo,0,4,0,0,0,2,0,1,0,1
+playingwithjava,oop.abstraction.interfaces.solvingdiamondproblem,InterfaceOne,0,4,0,0,0,2,0,1,0,1
+playingwithjava,oop.abstraction.interfaces.solvingdiamondproblem,DiamondDriver,0,11,0,0,0,5,0,2,0,2
+playingwithjava,oop.multipleinheritance,Car,0,17,0,0,0,3,0,1,0,1
+playingwithjava,oop.multipleinheritance,Plymouth,0,23,0,0,0,8,0,3,0,3
+playingwithjava,multithreading.threads.runnables,RunnableDemo.new Runnable() {...},0,3,0,0,0,1,0,1,0,1

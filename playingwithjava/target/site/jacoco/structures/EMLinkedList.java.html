@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>EMLinkedList.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">playingwithjava</a> &gt; <a href="index.source.html" class="el_package">structures</a> &gt; <span class="el_source">EMLinkedList.java</span></div><h1>EMLinkedList.java</h1><pre class="source lang-java linenums">package structures;
+
+import lombok.Data;
+
+@Data
+public class EMLinkedList {
+
+    private LLNode head;
+
+    // Constructors
+<span class="fc" id="L11">    public EMLinkedList() {</span>
+<span class="fc" id="L12">        this.head = null;</span>
+<span class="fc" id="L13">    }</span>
+
+<span class="fc" id="L15">    public EMLinkedList(int value) {</span>
+<span class="fc" id="L16">        this.head = new LLNode(value);</span>
+<span class="fc" id="L17">    }</span>
+
+<span class="fc" id="L19">    public EMLinkedList(LLNode llNode) {</span>
+<span class="fc" id="L20">        this.head = llNode;</span>
+<span class="fc" id="L21">    }</span>
+
+
+    public EMLinkedList insert(LLNode llNode) {
+
+<span class="fc bfc" id="L26" title="All 2 branches covered.">       if (this.head == null) {</span>
+<span class="fc" id="L27">           this.head = llNode;</span>
+       } else {
+<span class="fc" id="L29">           LLNode nextLLNode = this.head;</span>
+<span class="fc bfc" id="L30" title="All 2 branches covered.">           while (nextLLNode.getNext() != null) {</span>
+<span class="fc" id="L31">               nextLLNode = nextLLNode.getNext();</span>
+           }
+<span class="fc" id="L33">           nextLLNode.setNext(llNode);</span>
+       }
+
+<span class="fc" id="L36">       return this;</span>
+    }
+
+    public EMLinkedList insertAtHead(LLNode llNode) {
+
+<span class="fc bfc" id="L41" title="All 4 branches covered.">        if (this.head != null &amp;&amp; this.head.getNext() != null) {</span>
+<span class="fc" id="L42">            llNode.setNext(this.head);</span>
+        }
+<span class="fc" id="L44">        this.head = llNode;</span>
+
+<span class="fc" id="L46">        return this;</span>
+    }
+
+    public EMLinkedList insert(int data) {
+<span class="fc" id="L50">        return insert(new LLNode(data));</span>
+    }
+
+    public EMLinkedList insertAtHead(int data) {
+<span class="fc" id="L54">        return insertAtHead(new LLNode(data));</span>
+    }
+
+
+
+    public boolean contains(int data) {
+<span class="fc" id="L60">        return search(this.head, data);</span>
+    }
+
+    private boolean search(LLNode llNode, int data) {
+
+        // base
+<span class="fc bfc" id="L66" title="All 2 branches covered.">        if (llNode == null) {</span>
+<span class="fc" id="L67">            return false;</span>
+        }
+
+<span class="fc bfc" id="L70" title="All 2 branches covered.">        if (llNode.getValue() == data) {</span>
+<span class="fc" id="L71">            return true;</span>
+        } else {
+<span class="fc" id="L73">            return search(llNode.getNext(), data);</span>
+        }
+    }
+
+    // Delete by value
+    @SuppressWarnings(&quot;java:S2259&quot;)
+    public EMLinkedList deleteByValue(int data) {
+
+        /*
+            Early exit. If head is null, just bail out.
+         */
+<span class="fc bfc" id="L84" title="All 2 branches covered.">        if (this.head == null) return this;</span>
+
+<span class="fc" id="L86">        LLNode curr = this.head;</span>
+<span class="fc" id="L87">        LLNode prev = null;</span>
+
+        /*
+            CASE 1:
+            - data is at the head.
+         */
+<span class="fc bfc" id="L93" title="All 2 branches covered.">        if (curr.getValue() == data) {</span>
+<span class="fc" id="L94">            this.head = curr.getNext();</span>
+<span class="fc" id="L95">            return this;</span>
+        }
+
+        /*
+            keep going until we either
+                1.) hit the end of the list
+                2.) find the value
+         */
+<span class="fc bfc" id="L103" title="All 4 branches covered.">        while (curr != null &amp;&amp; curr.getValue() != data) {</span>
+<span class="fc" id="L104">            prev = curr;</span>
+<span class="fc" id="L105">            curr = curr.getNext();</span>
+        }
+
+        /*
+            if curr isn't null, we found our data.
+            we set prev's next to curr's next to skip current.
+         */
+
+<span class="fc bfc" id="L113" title="All 2 branches covered.">        if (curr != null) {</span>
+            /*
+                The IDE will complain about the possibility of an NPE here.
+                (java:S2259)
+                - prev is null if head is null, but we bail out early, no NPE
+                - the while loop eliminates any further issues.
+                TT -&gt; sets prev to current, which prevents NPE
+                TF -&gt; the only possibility for TF is satisfied by the first case
+                    (if the data is at the head)
+                FX -&gt; if the first part of the logic statement evals to false,
+                    then head would have been null, which we bail out.
+             */
+<span class="fc" id="L125">            prev.setNext(curr.getNext());</span>
+        }
+
+<span class="fc" id="L128">        return this;</span>
+    }
+
+    // delete by index
+    public EMLinkedList deleteByIndex(int index) {
+
+<span class="fc bfc" id="L134" title="All 2 branches covered.">        if (this.head == null) return this;</span>
+
+<span class="fc" id="L136">        LLNode curr = this.head;</span>
+<span class="fc" id="L137">        LLNode prev = null;</span>
+
+        // Head Case :)
+<span class="fc bfc" id="L140" title="All 2 branches covered.">        if (index == 0) {</span>
+<span class="fc" id="L141">            this.head = curr.getNext();</span>
+<span class="fc" id="L142">            return this;</span>
+        }
+
+        // Everything else but tail
+<span class="fc" id="L146">        int counter = 0;</span>
+<span class="fc bfc" id="L147" title="All 2 branches covered.">        while (curr != null) {</span>
+
+<span class="fc bfc" id="L149" title="All 2 branches covered.">            if (counter == index) {</span>
+<span class="fc" id="L150">                prev.setNext(curr.getNext());</span>
+<span class="fc" id="L151">                break;</span>
+            } else {
+<span class="fc" id="L153">                prev = curr;</span>
+<span class="fc" id="L154">                curr = curr.getNext();</span>
+<span class="fc" id="L155">                counter++;</span>
+            }
+        }
+<span class="fc" id="L158">        return this;</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>

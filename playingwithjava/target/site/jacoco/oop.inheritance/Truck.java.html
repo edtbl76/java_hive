@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Truck.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">playingwithjava</a> &gt; <a href="index.source.html" class="el_package">oop.inheritance</a> &gt; <span class="el_source">Truck.java</span></div><h1>Truck.java</h1><pre class="source lang-java linenums">package oop.inheritance;
+
+
+// Direct Inheritance (First Level)
+@SuppressWarnings({&quot;java:S106&quot;, &quot;FieldCanBeLocal&quot;})
+public class Truck extends Vehicle {
+
+    private final String bodyStyle;
+    private static final int FUEL_CAPACITY = 200;
+
+    public Truck(String make, String color, int year, String model, String bodyStyle) {
+<span class="fc" id="L12">        super(make, color, year, model);</span>
+<span class="fc" id="L13">        this.bodyStyle = bodyStyle;</span>
+<span class="fc" id="L14">    }</span>
+
+    @Override
+    public void printDetails() {
+<span class="fc" id="L18">        super.printDetails();</span>
+<span class="fc" id="L19">        System.out.println(&quot;Body Style: &quot; + bodyStyle);</span>
+<span class="fc" id="L20">    }</span>
+
+    public void openTailgate() {
+<span class="fc" id="L23">        System.out.println(&quot;Tailgate is open&quot;);</span>
+<span class="fc" id="L24">    }</span>
+
+    public void displayFuelCapacity() {
+<span class="fc" id="L27">        System.out.println(&quot;Fuel Capacity from the Vehicle class: &quot; + Vehicle.FUEL_CAPACITY);</span>
+<span class="fc" id="L28">        System.out.println(&quot;Fuel Capacity from the Truck Class: &quot; + Truck.FUEL_CAPACITY);</span>
+<span class="fc" id="L29">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>
