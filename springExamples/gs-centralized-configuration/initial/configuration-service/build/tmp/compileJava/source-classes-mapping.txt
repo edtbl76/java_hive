@@ -1,0 +1,2 @@
+com/example/centralizedconfigurationservice/CentralizedConfigurationServiceApplication.java
+ com.example.centralizedconfigurationservice.CentralizedConfigurationServiceApplication

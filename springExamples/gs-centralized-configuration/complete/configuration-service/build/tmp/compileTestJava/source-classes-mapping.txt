@@ -1,0 +1,2 @@
+com/example/configurationservice/ConfigurationServiceApplicationTest.java
+ com.example.configurationservice.ConfigurationServiceApplicationTest

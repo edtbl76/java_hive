@@ -1,0 +1,3 @@
+com/example/configurationclient/ConfigurationClientApplication.java
+ com.example.configurationclient.ConfigurationClientApplication
+ com.example.configurationclient.MessageRestController
