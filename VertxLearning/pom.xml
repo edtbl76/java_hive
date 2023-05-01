@@ -93,6 +93,6 @@
     <properties>
         <jdk.version>11</jdk.version>
         <vertx.version>4.0.0-milestone3</vertx.version>
-        <ignite.version>2.7.5</ignite.version>
+        <ignite.version>2.8.1</ignite.version>
     </properties>
 </project>
