@@ -67,7 +67,7 @@
 
     <properties>
         <dl4j.version>0.9.1</dl4j.version> <!-- Latest non beta version -->
-        <httpclient.version>4.3.5</httpclient.version>
+        <httpclient.version>4.5.13</httpclient.version>
         <lombok.version>1.18.20</lombok.version>
     </properties>
 
